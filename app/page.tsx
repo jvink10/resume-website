@@ -1,7 +1,7 @@
 export default function Home() {
   	return (
-		<main className="flex-grow">
-
+		<main className="flex-grow bg-slate-700">
+			
 		</main>
   	);
 };
