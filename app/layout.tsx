@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import Link from 'next/link';
 
+import GithubIcon from '../components/GithubIcon';
 import LinkedinIcon from '../components/LinkedinIcon';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -37,10 +38,15 @@ export default function RootLayout({
 							<Link href="/">Home</Link>
 						</div>
 						<div>
-							<LinkedinIcon />
+							<div className="inline-block pr-2">
+								<GithubIcon />
+							</div>
+							<div className="inline-block">
+								<LinkedinIcon />
+							</div>
 						</div>
 					</div>
-					<div className="mx-32 border-t border-slate-400 py-8">
+					<div className="mx-16 lg:mx-32 border-t border-slate-400 py-8">
 					<p className="text-center">&copy; {new Date().getFullYear()} Jordan Vink. All rights reserved.</p>
 					</div>
 				</footer>
