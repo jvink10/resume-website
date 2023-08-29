@@ -32,7 +32,7 @@ export default function RootLayout({
 							<p className="hidden sm:inline"> | </p>
 							<p className="sm:inline">Full Stack Web Developer</p>
 						</h1>
-						<div className="inline-block lg:hidden float-right">
+						<div className="inline-block lg:hidden float-left">
 							<MobileNavBar />
 						</div>
 						<div className="hidden lg:block lg:inline lg:float-right">

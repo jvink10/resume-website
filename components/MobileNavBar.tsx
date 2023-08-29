@@ -18,9 +18,9 @@ export default function MobileNavBar() {
             <div>
                 {isOpen && (
                     <div className="w-full h-full fixed top-0 right-0 z-50">
-                        <button onClick={toggleMenu} className="absolute w-1/2 h-full top-0 left-0 bg-black opacity-50"></button>
-                        <div className="absolute w-1/2 h-full top-0 right-0 bg-slate-700">
-                            <div className="mb-8 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-right">
+                        <button onClick={toggleMenu} className="absolute w-1/2 h-full top-0 right-0 bg-black opacity-50"></button>
+                        <div className="absolute w-1/2 h-full top-0 left-0 bg-slate-700">
+                            <div className="mb-8 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-left">
                                 <div className="px-8 py-6 bg-slate-700">
                                     <button onClick={toggleMenu} className="border rounded-md border-white p-1">
                                         <AiOutlineMenu size={20} />
