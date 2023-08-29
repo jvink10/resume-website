@@ -5,10 +5,10 @@ export default function Home() {
 		<main className="flex-grow bg-slate-700">
 			<section className="px-48 py-16">
 				<ul className="text-lg">
-					<li>import {'{'} HTML, CSS, javascript {'}'} from 'front-end';</li>
-					<li>import {'{'} javascript {'}'} from 'back-end';</li>
-					<li>import {'{'} Next.js {'}'} from 'frameworks';</li>
-					<li className="my-8 font-bold"> import {'{'} EverythingElse {'}'} from 'jordan-vink';</li>
+					<li>import {'{'} HTML, CSS, javascript {'}'} from &apos;front-end&apos;;</li>
+					<li>import {'{'} javascript {'}'} from &apos;back-end&apos;;</li>
+					<li>import {'{'} Next.js {'}'} from &apos;frameworks&apos;;</li>
+					<li className="my-8 font-bold">import {'{'} EverythingElse {'}'} from &apos;jordan-vink&apos;;</li>
 				</ul>
 			</section>
 			<section className="px-64 py-16">
