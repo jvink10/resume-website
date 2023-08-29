@@ -18,10 +18,10 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="mb-8">
-					<ProjectSummary title="Myxos and Musings Book Sale" image="/open-page-95.jpg" imageWidth={200} imageHeight={133} summary="Managed pricing and design for the sale of the Myxos and Musings book." />
+					<ProjectSummary title="Myxos and Musings Book Sale" image="/myxos-and-musings.jpg" imagePadding={false} imageWidth={512} imageHeight={192} summary="Managed pricing and design for the sale of the Myxos and Musings book." />
 				</div>
 				<div>
-					<ProjectSummary title="Wamos Portugal Web Development Intern" image="/wamos-grupo-logo.png" imageWidth={238} imageHeight={77} summary="Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface." />
+					<ProjectSummary title="Wamos Portugal Web Development Intern" image="/wamos-portugal.png" imagePadding={true} imageWidth={238} imageHeight={77} summary="Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface." />
 				</div>
 			</section>
 		</main>

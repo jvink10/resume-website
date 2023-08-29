@@ -4,9 +4,11 @@ import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import Link from 'next/link';
 
+import MovileNavBar from '../components/MobileNavBar';
 import Navbar from '../components/NavBar';
 import GithubIcon from '../components/GithubIcon';
 import LinkedinIcon from '../components/LinkedinIcon';
+import MobileNavBar from '../components/MobileNavBar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,9 +26,12 @@ export default function RootLayout({
     	<html lang="en">
       		<body className={`${inter.className} flex flex-col min-h-screen text-white`}>
 				<header className="py-6 bg-slate-800">
-					<div className="lg:px-16 text-center lg:text-left">
-						<h1 className="lg:inline text-xl font-bold">Jordan Vink | Full Stack Web Developer</h1>
-						<div className="lg:inline lg:float-right">
+					<div className="px-8 lg:px-16 text-center lg:text-left">
+						<h1 className="inline text-xl font-bold">Jordan Vink | Full Stack Web Developer</h1>
+						<div className="inline-block lg:hidden float-right">
+							<MobileNavBar />
+						</div>
+						<div className="hidden lg:block lg:inline lg:float-right">
 							<Navbar />
 						</div>
 					</div>
@@ -38,10 +43,10 @@ export default function RootLayout({
 						<div className="hidden md:block">
 							<p>Logo</p>
 						</div>
-						<div>
+						<div className="hidden sm:block">
 							<Navbar />
 						</div>
-						<div className="pt-6 md:pt-0">
+						<div className="sm:pt-6 md:pt-0">
 							<div className="inline-block pr-2">
 								<GithubIcon />
 							</div>
