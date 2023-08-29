@@ -8,6 +8,11 @@ export default function ContactForm() {
         message: '',
     });
 
+    const validateEmail = () => {
+        const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        return emailRegex.test(formData.email);
+    };
+
     const handleDataChange = (event: any) => {
         const { name, value } = event.target;
         setFormData({
@@ -18,7 +23,9 @@ export default function ContactForm() {
 
     const handleSubmit = (event: any) => {
         event.preventDefault();
-        console.log(formData);
+        if (formData.name && validateEmail() && formData.message) {
+            console.log(formData);
+        };
     };
 
     return (
