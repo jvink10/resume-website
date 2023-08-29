@@ -17,10 +17,8 @@ export default function Home() {
 						<h1 className="text-center">Check Out What I Have Worked On Recently</h1>
 					</div>
 				</div>
-				<div className="mb-8">
+				<div className="space-y-8">
 					<ProjectSummary title="Myxos and Musings Book Sale" image="/myxos-and-musings.jpg" imagePadding={false} imageWidth={512} imageHeight={192} summary="Managed pricing and design for the sale of the Myxos and Musings book." />
-				</div>
-				<div>
 					<ProjectSummary title="Wamos Portugal Web Development Intern" image="/wamos-portugal.png" imagePadding={true} imageWidth={238} imageHeight={77} summary="Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface." />
 				</div>
 			</section>
