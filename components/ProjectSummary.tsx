@@ -16,7 +16,7 @@ export default function ProjectSummary(props: Props) {
                 <Image src={props.image} alt={`${props.title} image`} width={props.imageWidth} height={props.imageHeight} className={`${props.imagePadding ? '' : 'rounded-t-xl'} mx-auto`} />
             </div>
             <div className="p-4">
-                <h2 className="my-2 text-lg">{props.title}</h2>
+                <h2 className="my-2 text-xl">{props.title}</h2>
                 <p>{props.summary}</p>
             </div>
         </div>

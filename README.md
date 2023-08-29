@@ -4,6 +4,4 @@ Changes
 - Consider changing colours to white, with blue as a highlight
 - Add dark mode with dark:
 - Get logo
-- Consider h-fill instead of flex-grow
 - Redo button size for mobile navigation
-- Header should be centered with mobile navigation

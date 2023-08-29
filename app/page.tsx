@@ -12,7 +12,7 @@ export default function Home() {
 				</ul>
 			</section>
 			<section className="px-8 py-16">
-				<div className="mb-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">
+				<div className="mx-8 md:mx-16 lg:mx-32 mb-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">
 					<div className="py-4 w-full h-full bg-slate-700">
 						<h1 className="text-center">Check Out What I Have Worked On Recently</h1>
 					</div>
