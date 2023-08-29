@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import Link from 'next/link';
 
+import Navbar from '../components/NavBar';
 import GithubIcon from '../components/GithubIcon';
 import LinkedinIcon from '../components/LinkedinIcon';
 
@@ -23,8 +24,11 @@ export default function RootLayout({
     	<html lang="en">
       		<body className={`${inter.className} flex flex-col min-h-screen text-white`}>
 				<header className="py-6 bg-slate-800">
-					<div className="container mx-auto px-4">
-						<h1 className="text-xl font-bold">Jordan Vink | Full Stack Web Developer</h1>
+					<div className="px-16">
+						<h1 className="inline text-xl font-bold">Jordan Vink | Full Stack Web Developer</h1>
+						<div className="inline float-right">
+							<Navbar />
+						</div>
 					</div>
 				</header>
       			{children}
@@ -35,7 +39,7 @@ export default function RootLayout({
 							<p>Logo</p>
 						</div>
 						<div>
-							<Link href="/">Home</Link>
+							<Navbar />
 						</div>
 						<div>
 							<div className="inline-block pr-2">
