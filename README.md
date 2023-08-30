@@ -5,17 +5,16 @@ Learn
 
 Features
 - Add Logo
-- Image carousel
-- Add dark mode with dark:
+- Completely change format for mobile/desktop size
 - Add email and message functionality on contact page
 - Add invoicing for clients
-- Redo button size for mobile and desktop navigation
 
 Fix
+- Redo button size for mobile and desktop navigation
 
 Task
-- Add sub folders
 
 Experiment
 - Consider changing colours to white, with blue as a highlight
-- Completely change format for mobile/desktop size
+- Image carousel
+- Add dark mode with dark:
