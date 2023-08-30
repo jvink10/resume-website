@@ -5,3 +5,4 @@ Changes
 - Add dark mode with dark:
 - Get logo
 - Redo button size for mobile and desktop navigation
+- Add email and message functionality on contact page
