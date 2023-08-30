@@ -2,13 +2,11 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import Link from 'next/link';
 
-import MovileNavBar from '../components/MobileNavBar';
-import Navbar from '../components/NavBar';
-import GithubIcon from '../components/GithubIcon';
-import LinkedinIcon from '../components/LinkedinIcon';
-import MobileNavBar from '../components/MobileNavBar';
+import MobileNavBar from '../components/nav/MobileNavBar';
+import Navbar from '../components/nav/NavBar';
+import GithubIcon from '../components/nav/GithubIcon';
+import LinkedinIcon from '../components/nav/LinkedinIcon';
 
 const inter = Inter({ subsets: ['latin'] });
 
