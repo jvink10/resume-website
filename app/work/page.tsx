@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 
 import SkillTag from '../../components/SkillTag';
@@ -38,6 +39,9 @@ export default function Work() {
                     </div>
                     <div className="basis-1/2">
                         <Image src="/work/wamos-portugal/wamos-air-plane.png" alt="Wamos air plane" width={1280} height={853} className="lg:ml-16 xl:ml-24 2xl:ml-32" />
+                        <div className="text-xs text-right text-white/25">
+                            <Link href="https://creativecommons.org/licenses/by-sa/4.0" className="inline-block">William Verguet. Modifications were made.</Link>
+                        </div>
                     </div>
                 </div>
             </section>

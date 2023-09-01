@@ -14,8 +14,10 @@ Features
 
 Fix
 - Redo button size for mobile and desktop navigation
+- Stabilise mobile navigation
 
 Task
+- Improve SEO
 
 Experiment
 - Consider changing colours to white, with blue as a highlight
