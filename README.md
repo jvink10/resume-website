@@ -17,6 +17,7 @@ Fix
 
 Task
 - Improve SEO
+- Improve image loading speed
 
 Experiment
 - Consider changing colours to white, with blue as a highlight

@@ -27,7 +27,7 @@ export default function ProjectSummary(props: Props) {
             <div className="p-4">
                 <h2 className="inline-block my-2 text-xl">{props.title}</h2>
                 {props.linkId ? 
-                    <Link href={`/work#${props.linkId}`} className="inline-block float-right">
+                    <Link href={`/work#${props.linkId}`} className="inline-block mt-1.5 float-right">
                         <GoArrowUpRight size={28} />
                     </Link>
                 : null}
