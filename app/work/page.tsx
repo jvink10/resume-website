@@ -20,7 +20,7 @@ export default function Work() {
                             <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
                         </div>
                     </div>
-                    <div className="basis-1/2 mt-8 lg:mt-0">
+                    <div className="basis-1/2 mx-4 lg:mx-0 mt-8 lg:mt-0">
                         <Image src="/work/myxos-and-musings/myxos-and-musings-collage.png" alt="Collage of the Myxos and Musings website" width={960} height={540} className="hidden lg:block" />
                         <Image src="/work/myxos-and-musings/myxos-and-musings-home-desktop.png" alt="Home page of the Myxos and Musings website" width={901} height={1444} className="block lg:hidden" />
                     </div>
@@ -40,7 +40,7 @@ export default function Work() {
                     </div>
                     <div className="basis-1/2">
                         <Image src="/work/wamos-portugal/wamos-air-plane.png" alt="Wamos air plane" width={1280} height={853} className="lg:ml-16 xl:ml-24 2xl:ml-32" />
-                        <div className="text-xs lg:text-right text-white/25">
+                        <div className="mx-8 lg:mx-0 text-xs lg:text-right text-white/25">
                             <Link href="https://creativecommons.org/licenses/by-sa/4.0" className="inline-block">William Verguet. Modifications were made.</Link>
                         </div>
                     </div>
