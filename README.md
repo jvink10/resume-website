@@ -4,6 +4,9 @@ Learn
 - Check how async works to see if components can be called asynchronously to make page load shorter
 
 Features
+- Add work page
+- Add future page
+- Add about page
 - Add Logo
 - Completely change format for mobile/desktop size
 - Add email and message functionality on contact page
