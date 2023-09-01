@@ -20,7 +20,7 @@ export default function Work() {
                         </div>
                     </div>
                     <div className="basis-1/2">
-                        {/*Image of the website here*/}
+                        <Image src="/work/myxos-and-musings/myxos-and-musings-collage.png" alt="Collage of the Myxos and Musings website" width={960} height={540} />
                     </div>
                 </div>
                 <div id="wamos-portugal" className="flex flex-row-reverse">
