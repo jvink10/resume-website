@@ -20,7 +20,7 @@ export default function Home() {
 				<div className="space-y-8">
 					<ProjectSummary
 						title="Myxos and Musings Book Sale"
-						image="/work/myxos-and-musings.jpg"
+						image="/work/myxos-and-musings/myxos-and-musings.jpg"
 						imagePadding={false}
 						imageWidth={512}
 						imageHeight={192}
@@ -28,7 +28,7 @@ export default function Home() {
 						linkId="myxos-and-musings" />
 					<ProjectSummary
 						title="Wamos Portugal Web Development Intern"
-						image="/work/wamos-portugal.png"
+						image="/work/wamos-portugal/wamos-portugal.png"
 						imagePadding={true}
 						imageWidth={238}
 						imageHeight={77}
