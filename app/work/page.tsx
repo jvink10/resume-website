@@ -5,7 +5,7 @@ import SkillTag from '../../components/SkillTag';
 export default function Work() {
     return (
         <main className="flex-grow bg-slate-700">
-            <section className="mt-16 space-y-16">
+            <section className="my-16 space-y-16">
                 <div id="myxos-and-musings" className="flex flex-row">
                     <div className="basis-1/2 space-y-4">
                         <h2 className="ml-64 text-xl">Myxos and Musings Book Sale</h2>
@@ -37,7 +37,7 @@ export default function Work() {
                         </div>
                     </div>
                     <div className="basis-1/2">
-                        {/*Some imagery*/}
+                        <Image src="/work/wamos-portugal/wamos-air-plane.png" alt="Wamos air plane" width={1280} height={853} className="ml-32" />
                     </div>
                 </div>
             </section>
