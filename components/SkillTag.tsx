@@ -11,7 +11,7 @@ export default function SkillTag(props: Props) {
     } = props;
 
     return (
-        <div className={`inline-block rounded-full bg-${bgColour}`}>
+        <div className={`inline-block m-1 rounded-full bg-${bgColour}`}>
             <p className={`px-4 py-1 text-${textColour}`}>{props.text}</p>
         </div>
     );
