@@ -16,7 +16,7 @@ export default function Work() {
                             <SkillTag text="React" />
                         </div>
                         <div className="ml-64">
-                            <p>Designed and developed the front end, back end and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
+                            <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
                         </div>
                     </div>
                     <div className="basis-1/2">
