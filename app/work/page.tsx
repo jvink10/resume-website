@@ -24,9 +24,9 @@ export default function Work() {
                     </div>
                 </div>
                 <div id="wamos-portugal" className="flex flex-row-reverse">
-                    <div className="basis-1/2 space-y-4">
-                        <h2 className="mr-64 text-right text-xl">Wamos Portugal Web Development Intern</h2>
-                        <div className="mr-64 space-x-2 text-right">
+                    <div className="basis-1/2 space-y-4 text-right">
+                        <h2 className="mr-64 text-xl">Wamos Portugal Web Development Intern</h2>
+                        <div className="mr-64 space-x-2">
                             <SkillTag text="Laravel" />
                             <SkillTag text="SASS" />
                             <SkillTag text="jQuery" />
