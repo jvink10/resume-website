@@ -8,7 +8,7 @@ export default function Work() {
         <main className="flex-grow bg-slate-700">
             <section className="my-16 space-y-16">
                 <div id="myxos-and-musings" className="flex flex-col lg:flex-row">
-                    <div className="basis-1/2 mx-8 sm:mx-16 lg:ml-32 xl:ml-48 2xl:ml-64 ">
+                    <div className="basis-1/2 self-center mx-8 sm:mx-16 lg:ml-32 xl:ml-48 2xl:ml-64 ">
                         <h2 className="mb-2 text-xl">Myxos and Musings Book Sale</h2>
                         <div className="mb-4">
                             <SkillTag text="Next.js" />
