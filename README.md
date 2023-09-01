@@ -4,7 +4,6 @@ Learn
 - Check how async works to see if components can be called asynchronously to make page load shorter
 
 Features
-- Add work page
 - Add future page
 - Add about page
 - Add Logo
