@@ -10,7 +10,6 @@
 - Add invoicing for clients, likely on contact page
 
 ## Fix
-- Redo button size for mobile and desktop navigation
 - Stabilise mobile navigation
 - Photo sphere resizing below 512px
 
