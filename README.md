@@ -4,7 +4,7 @@
 - Add future page
 - Add more content on about page
 - Add Logo
-- Completely change format for mobile/desktop home
+- Add design to home page
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
