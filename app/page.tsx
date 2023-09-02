@@ -3,13 +3,8 @@ import ProjectSummary from '../components/ProjectSummary';
 export default function Home() {
   	return (
 		<main className="flex-grow bg-slate-700">
-			<section className="px-8 md:px-16 lg:px-32 xl:px-48 py-16">
-				<ul className="text-lg">
-					<li>import {'{'} HTML, CSS, javascript {'}'} from &apos;front-end&apos;;</li>
-					<li>import {'{'} javascript {'}'} from &apos;back-end&apos;;</li>
-					<li>import {'{'} Next.js {'}'} from &apos;frameworks&apos;;</li>
-					<li className="my-8 font-bold">import {'{'} EverythingElse {'}'} from &apos;jordan-vink&apos;;</li>
-				</ul>
+			<section>
+				
 			</section>
 			<section className="px-8 py-16">
 				<div className="mx-8 md:mx-16 lg:mx-32 mb-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">

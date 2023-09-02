@@ -18,8 +18,6 @@
 
 ## Experiment
 - Consider changing colours to white, with blue as a highlight
-- Image carousel
-- Change imports on home page
 - Add dark mode with dark:
 - CSS animation for myxos and musings collage
 - Change CSS margins to percentages
