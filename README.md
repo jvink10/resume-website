@@ -2,7 +2,7 @@
 
 ## Features
 - Add future page
-- Add about page
+- Add more content on about page
 - Add Logo
 - Add indication for which tab you are currently in
 - Completely change format for mobile/desktop home
