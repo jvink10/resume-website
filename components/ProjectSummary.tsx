@@ -6,8 +6,8 @@ type Props = {
     title: string;
     image: string;
     imagePadding?: boolean;
-    imageWidth?: number;
-    imageHeight?: number;
+    imageWidth: number;
+    imageHeight: number;
     summary: string;
     linkId?: string;
 };
@@ -15,8 +15,6 @@ type Props = {
 export default function ProjectSummary(props: Props) {
     const {
         imagePadding = false,
-        imageWidth = 512,
-        imageHeight = 384,
     } = props;
 
     return (
