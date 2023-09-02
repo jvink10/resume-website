@@ -43,7 +43,7 @@ export default function About() {
                 <div className="mx-auto max-w-[512px] text-center">
                     <p>Jordan enjoys taking photo spheres with his phone and going on long walks, which he combines into some fantastic photo sphere shots of his home city, Brisbane</p>
                 </div>
-                <div className="inline-block mx-auto p-2 max-w-max bg-white">
+                <div className="hidden sm:inline-block mx-auto p-2 max-w-max bg-white">
                     <PhotoSphere image="/photo-spheres/bardon-esplanade-park.jpg" imageWidth={512} imageHeight={384} />
                 </div>
             </section>

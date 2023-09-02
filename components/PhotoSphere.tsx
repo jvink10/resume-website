@@ -9,6 +9,9 @@ type Props = {
 };
 
 export default function PhotoSphere(props: Props) {
+
+    //Resizing doesn't work. Got no clue why
+
     const [viewportWidth, setViewportWidth] = useState<number | undefined>(undefined);
     
     useEffect(() => {
