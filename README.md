@@ -1,8 +1,5 @@
 # Jordan Vink's website which acts as a resume.
 
-## Learn
-- Check how async works to see if components can be called asynchronously to make page load shorter
-
 ## Features
 - Add future page
 - Add about page
@@ -26,3 +23,4 @@
 - Add dark mode with dark:
 - CSS animation for myxos and musings collage
 - Change CSS margins to percentages
+- Add text to about page future improvement that would have passed
