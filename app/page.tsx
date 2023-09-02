@@ -3,9 +3,6 @@ import ProjectSummary from '../components/ProjectSummary';
 export default function Home() {
   	return (
 		<main className="flex-grow bg-slate-700">
-			<section>
-				
-			</section>
 			<section className="px-8 py-16">
 				<div className="mx-8 md:mx-16 lg:mx-32 mb-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">
 					<div className="py-4 w-full h-full bg-slate-700">
