@@ -33,7 +33,7 @@ export default function RootLayout({
 						<div className="inline-block lg:hidden">
 							<MobileNavBar />
 						</div>
-						<div className="hidden lg:block lg:inline">
+						<div className="hidden lg:block mt-6">
 							<Navbar />
 						</div>
 					</div>

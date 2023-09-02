@@ -6,7 +6,7 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="mt-6">
+        <div>
             <Link href="/" className={`px-4 py-6 ${pathname === "/" ? "font-bold" : ""}`}>Home</Link>
 			<Link href="/work" className={`px-4 py-6 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
 			<Link href="/future" className={`px-4 py-6 ${pathname === "/future" ? "font-bold" : ""}`}>Future</Link>
