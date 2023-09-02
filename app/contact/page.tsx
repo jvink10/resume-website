@@ -10,7 +10,7 @@ export default function Contact() {
                     <Link href="https://www.linkedin.com/in/jordan-vink" target="_blank" className="block underline">Visit My Linkedin</Link>
                     <Link href="https://github.com/jvink10" target="_blank" className="block underline">Check Out My Github</Link>
                 </div>
-                <div>
+                <div className="hidden">
                     <ContactForm />
                 </div>
             </section>

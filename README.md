@@ -7,6 +7,7 @@
 - Add indication for which tab you are currently in
 - Completely change format for mobile/desktop home
 - Add email and message functionality on contact page
+- Add contact page content
 - Add invoicing for clients, likely on contact page
 
 ## Fix
@@ -22,6 +23,7 @@
 ## Experiment
 - Consider changing colours to white, with blue as a highlight
 - Image carousel
+- Change imports on home page
 - Add dark mode with dark:
 - CSS animation for myxos and musings collage
 - Change CSS margins to percentages
