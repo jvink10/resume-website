@@ -19,7 +19,7 @@ export default function About() {
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Laravel and PHP</h2>
-                        <p className="ml-1">Following learning Next.js, Laravel and its focus on back end PHP will be Jordan's next goal.</p>
+                        <p className="ml-1">Following learning Next.js, Laravel and its focus on back end PHP will be Jordan&apos;s next goal.</p>
                         <p className="ml-1">He wants to learn Laravel due to its popularity and it being the first framework he touched in his Wamos Portugal internship.</p>
                     </div>
                     <div className="space-y-2">
