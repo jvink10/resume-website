@@ -14,23 +14,23 @@ export default function About() {
                 <div className="mx-auto xl:mx-96 w-96 space-y-8">
                     <div className="space-y-2">
                         <h2 className="text-lg">Next.js</h2>
-                        <p>Jordan want to focus on continuing to develop his skills in Next.js to a greater level.</p>
-                        <p>Once he feels that he has progressed to a comfortable level of expertise, he intends on expanding his web development abilities beyond Next.js and React.</p>
+                        <p className="ml-1">Jordan want to focus on continuing to develop his skills in Next.js to a greater level.</p>
+                        <p className="ml-1">Once he feels that he has progressed to a comfortable level of expertise, he intends on expanding his web development abilities beyond Next.js and React.</p>
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Laravel and PHP</h2>
-                        <p>Following learning Next.js, Laravel and its focus on back end PHP will be Jordan's next goal.</p>
-                        <p>He wants to learn Laravel due to its popularity and it being the first framework he touched in his Wamos Portugal internship.</p>
+                        <p className="ml-1">Following learning Next.js, Laravel and its focus on back end PHP will be Jordan's next goal.</p>
+                        <p className="ml-1">He wants to learn Laravel due to its popularity and it being the first framework he touched in his Wamos Portugal internship.</p>
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Create Art and Designs</h2>
-                        <p>However, programming is only half the workload in web development. Jordan wants to be well rounded enough that he can complete the entire process with a high quality alone.</p>
-                        <p>As such, he has decided that learning the art and design related components, including designing layouts, choosing colours, and creating imagery should be part of his skill set.</p>
+                        <p className="ml-1">However, programming is only half the workload in web development. Jordan wants to be well rounded enough that he can complete the entire process with a high quality alone.</p>
+                        <p className="ml-1">As such, he has decided that learning the art and design related components, including designing layouts, choosing colours, and creating imagery should be part of his skill set.</p>
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Desktop Application Development</h2>
-                        <p>After finally developing his web related skills to a satisfactory level, Jordan intends on branching out of web development, likely into desktop application development first.</p>
-                        <p>Any further progress is not currently under consideration.</p>
+                        <p className="ml-1">After finally developing his web related skills to a satisfactory level, Jordan intends on branching out of web development, likely into desktop application development first.</p>
+                        <p className="ml-1">Any further progress is not currently under consideration.</p>
                     </div>
                 </div>
             </section>
