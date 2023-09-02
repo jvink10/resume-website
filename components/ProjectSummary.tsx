@@ -28,7 +28,7 @@ export default function ProjectSummary(props: Props) {
                 <div className="flex flex-row justify-between">
                     <h2 className="inline-block my-2 text-xl">{props.title}</h2>
                     {props.linkId ? 
-                        <Link href={`/work#${props.linkId}`} className="inline-block my-2 float-right">
+                        <Link href={`${props.linkId}`} className="inline-block my-2 float-right">
                             <GoArrowUpRight size={28} />
                         </Link>
                     : null}

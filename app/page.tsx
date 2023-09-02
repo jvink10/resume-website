@@ -25,7 +25,7 @@ export default function Home() {
 						imageWidth={512}
 						imageHeight={192}
 						summary="Managed pricing and design for the sale of the Myxos and Musings book."
-						linkId="myxos-and-musings" />
+						linkId="/work#myxos-and-musings" />
 					<ProjectSummary
 						title="Wamos Portugal Web Development Intern"
 						image="/work/wamos-portugal/wamos-portugal.png"
@@ -33,7 +33,7 @@ export default function Home() {
 						imageWidth={238}
 						imageHeight={77}
 						summary="Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface."
-						linkId="wamos-portugal" />
+						linkId="/work#wamos-portugal" />
 				</div>
 			</section>
 		</main>
