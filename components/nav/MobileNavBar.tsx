@@ -1,10 +1,12 @@
 'use client'
 import Link from 'next/link';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 export default function MobileNavBar() {
     const [isOpen, setIsOpen] = useState(false);
+    const pathname = usePathname();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -27,21 +29,21 @@ export default function MobileNavBar() {
                                     </button>
                                 </div>
                             </div>
-                            <ul className="space-y-8 text-lg font-bold">
+                            <ul className="space-y-8 text-lg">
                                 <li>
-                                    <Link href="/" onClick={toggleMenu}>Home</Link>
+                                    <Link href="/" onClick={toggleMenu} className={pathname === "/" ? "font-bold" : ""}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/work" onClick={toggleMenu}>Work</Link>
+                                    <Link href="/work" onClick={toggleMenu} className={pathname === "/work" ? "font-bold" : ""}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/future" onClick={toggleMenu}>Future</Link>
+                                    <Link href="/future" onClick={toggleMenu} className={pathname === "/future" ? "font-bold" : ""}>Future</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about" onClick={toggleMenu}>About</Link>
+                                    <Link href="/about" onClick={toggleMenu} className={pathname === "/about" ? "font-bold" : ""}>About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={toggleMenu}>Contact</Link>
+                                    <Link href="/contact" onClick={toggleMenu} className={pathname === "/contact" ? "font-bold" : ""}>Contact</Link>
                                 </li>
                             </ul>
                         </div>
