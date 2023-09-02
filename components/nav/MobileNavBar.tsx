@@ -39,9 +39,6 @@ export default function MobileNavBar() {
                                     <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/future" onClick={toggleMenu} className={`block py-4 ${pathname === "/future" ? "font-bold" : ""}`}>Future</Link>
-                                </li>
-                                <li>
                                     <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "font-bold" : ""}`}>About</Link>
                                 </li>
                                 <li>
