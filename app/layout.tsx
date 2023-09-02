@@ -26,9 +26,9 @@ export default function RootLayout({
 				<header className="bg-slate-800">
 					<div className="flex flex-row-reverse lg:flex-row justify-between px-8 lg:px-16 text-center lg:text-left">
 						<h1 className="inline-block py-6 text-xl font-bold">
-							<p className="sm:inline">Jordan Vink</p>
+							<p className="inline">Jordan Vink</p>
 							<p className="hidden sm:inline"> | </p>
-							<p className="sm:inline">Full Stack Web Developer</p>
+							<p className="hidden sm:inline">Full Stack Web Developer</p>
 						</h1>
 						<div className="inline-block lg:hidden">
 							<MobileNavBar />
