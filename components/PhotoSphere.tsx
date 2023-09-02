@@ -9,7 +9,7 @@ type Props = {
 };
 
 export default function PhotoSphere(props: Props) {
-    const [viewportWidth, setViewportWidth] = useState<number>(window.innerWidth);
+    const [viewportWidth, setViewportWidth] = useState<number | undefined>(undefined);
     
     useEffect(() => {
         setViewportWidth(window.innerWidth);
