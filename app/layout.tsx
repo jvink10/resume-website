@@ -24,16 +24,16 @@ export default function RootLayout({
     	<html lang="en">
       		<body className={`${inter.className} flex flex-col min-h-screen text-white`}>
 				<header className="bg-slate-800">
-					<div className="px-8 lg:px-16 text-center lg:text-left">
+					<div className="flex flex-row-reverse lg:flex-row justify-between px-8 lg:px-16 text-center lg:text-left">
 						<h1 className="inline-block py-6 text-xl font-bold">
 							<p className="sm:inline">Jordan Vink</p>
 							<p className="hidden sm:inline"> | </p>
 							<p className="sm:inline">Full Stack Web Developer</p>
 						</h1>
-						<div className="inline-block lg:hidden float-left">
+						<div className="inline-block lg:hidden">
 							<MobileNavBar />
 						</div>
-						<div className="hidden lg:block lg:inline lg:float-right">
+						<div className="hidden lg:block lg:inline">
 							<Navbar />
 						</div>
 					</div>

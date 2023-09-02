@@ -10,7 +10,6 @@
 - Add invoicing for clients, likely on contact page
 
 ## Fix
-- Stabilise mobile navigation
 - Photo sphere resizing below 512px
 
 ## Task
