@@ -4,7 +4,6 @@
 - Add future page
 - Add more content on about page
 - Add Logo
-- Add indication for which tab you are currently in
 - Completely change format for mobile/desktop home
 - Add email and message functionality on contact page
 - Add contact page content
