@@ -14,36 +14,38 @@ export default function MobileNavBar() {
 
     return (
         <div>
-            <button onClick={toggleMenu} className="border rounded-md border-white p-1">
-                <AiOutlineMenu size={20} />
-            </button>
+            <div className="mt-6">
+                <button onClick={toggleMenu} className="border rounded-md border-white p-1">
+                    <AiOutlineMenu size={20} />
+                </button>
+            </div>
             <div>
                 {isOpen && (
                     <div className="w-full h-full fixed top-0 right-0 z-50">
                         <button onClick={toggleMenu} className="absolute w-1/2 h-full top-0 right-0 bg-black opacity-50"></button>
                         <div className="absolute w-1/2 h-full top-0 left-0 bg-slate-700">
-                            <div className="mb-8 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-left">
+                            <div className="mb-4 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-left">
                                 <div className="px-8 py-6 bg-slate-700">
                                     <button onClick={toggleMenu} className="border rounded-md border-white p-1">
                                         <AiOutlineMenu size={20} />
                                     </button>
                                 </div>
                             </div>
-                            <ul className="space-y-8 text-lg">
+                            <ul className="text-lg">
                                 <li>
-                                    <Link href="/" onClick={toggleMenu} className={pathname === "/" ? "font-bold" : ""}>Home</Link>
+                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "font-bold" : ""}`}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/work" onClick={toggleMenu} className={pathname === "/work" ? "font-bold" : ""}>Work</Link>
+                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/future" onClick={toggleMenu} className={pathname === "/future" ? "font-bold" : ""}>Future</Link>
+                                    <Link href="/future" onClick={toggleMenu} className={`block py-4 ${pathname === "/future" ? "font-bold" : ""}`}>Future</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about" onClick={toggleMenu} className={pathname === "/about" ? "font-bold" : ""}>About</Link>
+                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "font-bold" : ""}`}>About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={toggleMenu} className={pathname === "/contact" ? "font-bold" : ""}>Contact</Link>
+                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
                                 </li>
                             </ul>
                         </div>
