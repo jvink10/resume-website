@@ -1,28 +1,28 @@
-Jordan Vink's website which acts as a resume.
+# Jordan Vink's website which acts as a resume.
 
-Learn
+## Learn
 - Check how async works to see if components can be called asynchronously to make page load shorter
 
-Features
+## Features
 - Add future page
 - Add about page
 - Add Logo
+- Add indication for which tab you are currently in
 - Completely change format for mobile/desktop home
 - Add email and message functionality on contact page
 - Add invoicing for clients, likely on contact page
 
-Fix
+## Fix
 - Redo button size for mobile and desktop navigation
 - Stabilise mobile navigation
 
-Task
+## Task
 - Improve SEO
 - Improve image loading speed
 
-Experiment
+## Experiment
 - Consider changing colours to white, with blue as a highlight
 - Image carousel
 - Add dark mode with dark:
-
-Talk about likes: programming, photo spheres, walking
-Ambitions for future progression and experience: laravel and php, packages, art, and expanding beyond web development
+- CSS animation for myxos and musings collage
+- Change CSS margins to percentages
