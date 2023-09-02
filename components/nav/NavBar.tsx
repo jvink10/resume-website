@@ -6,12 +6,12 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="space-x-8">
-            <Link href="/" className={pathname === "/" ? "font-bold" : ""}>Home</Link>
-			<Link href="/work" className={pathname === "/work" ? "font-bold" : ""}>Work</Link>
-			<Link href="/future" className={pathname === "/future" ? "font-bold" : ""}>Future</Link>
-			<Link href="/about" className={pathname === "/about" ? "font-bold" : ""}>About</Link>
-			<Link href="/contact" className={pathname === "/contact" ? "font-bold" : ""}>Contact</Link>
+        <div className="mt-6">
+            <Link href="/" className={`px-4 py-6 ${pathname === "/" ? "font-bold" : ""}`}>Home</Link>
+			<Link href="/work" className={`px-4 py-6 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
+			<Link href="/future" className={`px-4 py-6 ${pathname === "/future" ? "font-bold" : ""}`}>Future</Link>
+			<Link href="/about" className={`px-4 py-6 ${pathname === "/about" ? "font-bold" : ""}`}>About</Link>
+			<Link href="/contact" className={`px-4 py-6 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
         </div>
     );
 };
