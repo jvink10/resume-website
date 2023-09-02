@@ -13,6 +13,7 @@
 - Redo button size for mobile and desktop navigation
 - Stabilise mobile navigation
 - Photo sphere resizing below 512px
+- Project summary arrow on mobile
 
 ## Task
 - Improve SEO

@@ -19,12 +19,12 @@ export default function About() {
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Laravel and PHP</h2>
-                        <p className="ml-1">Following learning Next.js, Laravel and its focus on back end PHP will be Jordan&apos;s next goal.</p>
+                        <p className="ml-1">Following learning Next.js, Laravel, and its focus on back end PHP, will be Jordan&apos;s next goal.</p>
                         <p className="ml-1">He wants to learn Laravel due to its popularity and it being the first framework he touched in his Wamos Portugal internship.</p>
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-lg">Create Art and Designs</h2>
-                        <p className="ml-1">However, programming is only half the workload in web development. Jordan wants to be well rounded enough that he can complete the entire process with a high quality alone.</p>
+                        <p className="ml-1">However, programming is only half the workload in web development. Jordan wants to be well rounded enough that he can complete the entire process to a high standard, alone.</p>
                         <p className="ml-1">As such, he has decided that learning the art and design related components, including designing layouts, choosing colours, and creating imagery should be part of his skill set.</p>
                     </div>
                     <div className="space-y-2">
