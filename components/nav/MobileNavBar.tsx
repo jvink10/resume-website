@@ -17,7 +17,7 @@ export default function MobileNavBar() {
     return (
         <div>
             <div className="mt-6">
-                <button onClick={toggleMenu} className="border rounded-md border-white p-1">
+                <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:hover:text-brand-blue-200">
                     <AiOutlineMenu size={20} />
                 </button>
             </div>
@@ -28,23 +28,23 @@ export default function MobileNavBar() {
                         <div className="absolute w-1/2 h-full top-0 left-0 bg-slate-700">
                             <div className="mb-4 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-left">
                                 <div className="px-8 py-6 bg-slate-700">
-                                    <button onClick={toggleMenu} className="border rounded-md border-white p-1">
+                                    <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:hover:text-brand-blue-200">
                                         <AiOutlineMenu size={20} />
                                     </button>
                                 </div>
                             </div>
                             <ul className="text-lg">
                                 <li>
-                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-brand-blue" : ""}`}>Home</Link>
+                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "text-brand-blue" : ""}`}>Work</Link>
+                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "text-brand-blue" : ""}`}>About</Link>
+                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-brand-blue" : ""}`}>Contact</Link>
+                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>Contact</Link>
                                 </li>
                             </ul>
                             <div className="mx-2 mt-4">
