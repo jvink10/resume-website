@@ -11,7 +11,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="mx-auto xl:mx-96 w-96 space-y-8">
+                <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
                     <div className="space-y-2">
                         <h2 className="text-lg">Next.js</h2>
                         <p className="ml-1">Jordan want to focus on continuing to develop his skills in Next.js to a greater level.</p>

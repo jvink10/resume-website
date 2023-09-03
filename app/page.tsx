@@ -8,7 +8,7 @@ export default function Home() {
 				<div className="pb-8">
 					<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
 				</div>
-				<div className="mx-auto w-[512px] space-y-4">
+				<div className="mx-auto max-w-[512px] space-y-4">
 					<p>Vink Web Development is an Australian web development and design company focused on &apos;Crafting Digital Nests&apos;</p>
 					<p>The company is run by Jordan Vink, a full stack web developer</p>
 				</div>
