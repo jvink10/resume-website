@@ -15,10 +15,6 @@ const config: Config = {
       },
       colors: {
         brand: {
-          black: '#131120',
-          white: '#f9f9f9',
-          extralightblue: '#beeafa',
-          lightblue: '#84dbfb',
           blue: {
             50: '#f0faff',
             100: '#dff3ff',
@@ -32,6 +28,19 @@ const config: Config = {
             800: '#056087',
             900: '#0a4e70',
             950: '#07324a',
+          },
+          black: {
+            50: '#f1f3fc',
+            100: '#e5e9fa',
+            200: '#d1d6f4',
+            300: '#b4baed',
+            400: '#9698e3',
+            500: '#817cd8',
+            600: '#6f62c9',
+            700: '#6052b0',
+            800: '#4e448f',
+            900: '#423d72',
+            950: '#131120',
           },
         },
       },
