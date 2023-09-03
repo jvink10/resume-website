@@ -1,10 +1,12 @@
-# Jordan Vink's website which acts as a resume.
+# Jordan Vink's website which acts as a resume
+Version 1.0.0
+
+# To Add:
 
 ## Features
 - Add future page
 - Add more content on about page
-- Add Logo
-- Add design to home page
+- Add home page section for my services
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
