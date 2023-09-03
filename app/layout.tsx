@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 import MobileNavBar from '../components/nav/MobileNavBar';
 import Navbar from '../components/nav/NavBar';
+import BrandImage from '../components/BrandImage';
 import GithubIcon from '../components/nav/GithubIcon';
 import LinkedinIcon from '../components/nav/LinkedinIcon';
 
@@ -41,14 +42,14 @@ export default function RootLayout({
       			{children}
 				<Analytics />
 				<footer className="bg-slate-600">
-					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center pb-6 pt-8 md:pb-8 text-center">
+					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
 						<div className="hidden md:block">
-							<p>Logo</p>
+							<BrandImage />
 						</div>
-						<div className="hidden sm:block">
+						<div className="hidden sm:block sm:pt-8 md:pt-6 md:pb-6">
 							<Navbar />
 						</div>
-						<div className="sm:pt-6 md:pt-0">
+						<div className="pt-8 sm:pt-6 md:pt-6 pb-6 md:pb-6">
 							<div className="inline-block pr-2">
 								<GithubIcon />
 							</div>
