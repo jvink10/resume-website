@@ -44,7 +44,7 @@ export default function RootLayout({
 				<footer className="bg-slate-600">
 					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
 						<div className="pt-8 sm:pt-6 md:pt-0 pb-6 sm:pb-0">
-							<BrandImage />
+							<BrandImage image="/brand/logo-transparent-no-slogan.png" imageWidth={200} imageHeight={56} />
 						</div>
 						<div className="hidden sm:block md:pt-6 pb-6">
 							<Navbar />

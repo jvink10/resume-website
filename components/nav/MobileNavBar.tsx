@@ -48,7 +48,7 @@ export default function MobileNavBar() {
                                 </li>
                             </ul>
                             <div className="mt-4">
-                                <BrandImage />
+                            <BrandImage image="/brand/logo-transparent.png" imageWidth={200} imageHeight={76} />
                             </div>
                         </div>
                     </div>

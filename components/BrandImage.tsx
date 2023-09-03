@@ -1,9 +1,15 @@
 import Image from 'next/image';
 
-export default function BrandImage() {
+type Props = {
+    image: string;
+    imageWidth: number;
+    imageHeight: number;
+};
+
+export default function BrandImage(props: Props) {
     return (
         <div className="inline-block">
-            <Image src="/brand/logo-transparent-no-slogan.png" alt="Vink web development logo" width={200} height={56} />
+            <Image src={`${props.image}`} alt="Vink web development logo" width={props.imageWidth} height={props.imageHeight} />
         </div>
     );
 };
