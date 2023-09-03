@@ -1,15 +1,12 @@
+import HeadingBox from '../../components/HeadingBox';
 import PhotoSphere from '../../components/PhotoSphere';
 
 export default function About() {
     return (
         <main className="flex-grow bg-slate-700">
             <section>
-                <div>
-                    <div className="mx-8 md:mx-16 lg:mx-32 my-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">
-                        <div className="py-4 w-full h-full bg-slate-700">
-                            <h1 className="text-center text-xl">Goals for Future Improvement</h1>
-                        </div>
-                    </div>
+                <div className="my-16">
+                    <HeadingBox text="Goals for Future Improvement" />
                 </div>
                 <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
                     <div className="space-y-2">
@@ -35,11 +32,7 @@ export default function About() {
                 </div>
             </section>
             <section className="flex flex-col mx-auto my-16 space-y-4">
-                <div className="mx-8 md:mx-16 lg:mx-32 xl:mx-64 bg-gradient-to-r from-transparent via-white to-transparent py-px">
-                    <div className="py-4 w-full h-full bg-slate-700">
-                        <h1 className="text-center text-lg">Personal Interests</h1>
-                    </div>
-                </div>
+                <HeadingBox text="Personal Interests" />
                 <div className="mx-auto px-4 max-w-[512px] text-center">
                     <p>Jordan enjoys taking photo spheres with his phone and going on long walks, which he combines into some fantastic photo sphere shots of his home city, Brisbane</p>
                 </div>
