@@ -29,7 +29,7 @@ const config: Config = {
             900: '#0a4e70',
             950: '#07324a',
           },
-          black: {
+          purple: {
             50: '#f1f3fc',
             100: '#e5e9fa',
             200: '#d1d6f4',
