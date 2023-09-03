@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { AiOutlineMenu } from 'react-icons/ai';
 
+import BrandImage from '../BrandImage';
+
 export default function MobileNavBar() {
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname();
@@ -45,6 +47,9 @@ export default function MobileNavBar() {
                                     <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
                                 </li>
                             </ul>
+                            <div className="mt-4">
+                                <BrandImage />
+                            </div>
                         </div>
                     </div>
                 )}
