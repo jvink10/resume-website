@@ -17,23 +17,23 @@ export default function MobileNavBar() {
     return (
         <div>
             <div className="mt-6">
-                <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:hover:text-brand-blue-200">
+                <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:text-brand-blue-200">
                     <AiOutlineMenu size={20} />
                 </button>
             </div>
             <div>
                 {isOpen && (
-                    <div className="w-full h-full fixed top-0 right-0 z-50">
+                    <div className="w-full h-full fixed top-0 right-0 z-10">
                         <button onClick={toggleMenu} className="absolute w-1/2 h-full top-0 right-0 bg-black opacity-50"></button>
                         <div className="absolute w-1/2 h-full top-0 left-0 bg-slate-700">
-                            <div className="mb-4 pb-px bg-gradient-to-r from-transparent via-white to-transparent text-left">
+                            <div className="mb-4 pb-px bg-gradient-to-r from-transparent via-white to-transparent">
                                 <div className="px-8 py-6 bg-slate-700">
-                                    <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:hover:text-brand-blue-200">
+                                    <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:text-brand-blue-200">
                                         <AiOutlineMenu size={20} />
                                     </button>
                                 </div>
                             </div>
-                            <ul className="text-lg">
+                            <ul className="text-lg text-center">
                                 <li>
                                     <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>Home</Link>
                                 </li>
@@ -47,7 +47,7 @@ export default function MobileNavBar() {
                                     <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-brand-blue hover:text-brand-blue-500" : "hover:text-brand-blue-200"}`}>Contact</Link>
                                 </li>
                             </ul>
-                            <div className="mx-2 mt-4">
+                            <div className="mx-2 mt-4 text-center">
                                 <BrandImage image="/brand/logo-transparent.png" imageWidth={200} imageHeight={76} />
                             </div>
                         </div>

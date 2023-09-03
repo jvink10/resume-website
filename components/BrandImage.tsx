@@ -9,7 +9,7 @@ type Props = {
 export default function BrandImage(props: Props) {
     return (
         <div className="inline-block">
-            <Image src={`${props.image}`} alt="Vink web development logo" width={props.imageWidth} height={props.imageHeight} />
+            <Image src={`${props.image}`} alt="Vink Web Development logo" width={props.imageWidth} height={props.imageHeight} />
         </div>
     );
 };

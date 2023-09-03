@@ -25,13 +25,13 @@ export default function RootLayout({
     	<html lang="en">
       		<body className={`${inter.className} flex flex-col min-h-screen text-white`}>
 				<header className="bg-slate-800">
-					<div className="flex flex-row-reverse lg:flex-row justify-between px-8 lg:px-16 text-center lg:text-left">
+					<div className="flex flex-row-reverse lg:flex-row justify-between px-8 lg:px-16">
 						<h1 className="inline-block py-6 text-xl font-bold">
 							<p className="inline">Jordan Vink</p>
 							<p className="hidden sm:inline"> | </p>
 							<p className="hidden sm:inline">Full Stack Web Developer</p>
 						</h1>
-						<div className="inline-block lg:hidden">
+						<div className="block lg:hidden">
 							<MobileNavBar />
 						</div>
 						<div className="hidden lg:block mt-6">

@@ -5,7 +5,7 @@ import ProjectSummary from '../components/ProjectSummary';
 export default function Home() {
   	return (
 		<main className="flex-grow bg-slate-700">
-			<section className="px-8 pt-16 text-center">
+			<section className="mx-8 my-16 text-center">
 				<div className="pb-8">
 					<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
 				</div>
@@ -14,7 +14,7 @@ export default function Home() {
 					<p>The company is run by Jordan Vink, a full stack web developer</p>
 				</div>
 			</section>
-			<section className="px-8 py-16">
+			<section className="mx-8 my-16">
 				<div className="mb-16">
 					<HeadingBox text="Check Out What I Have Worked On Recently" />
 				</div>
