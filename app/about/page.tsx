@@ -40,7 +40,7 @@ export default function About() {
                         <h1 className="text-center text-lg">Personal Interests</h1>
                     </div>
                 </div>
-                <div className="mx-auto max-w-[512px] text-center">
+                <div className="mx-auto px-4 max-w-[512px] text-center">
                     <p>Jordan enjoys taking photo spheres with his phone and going on long walks, which he combines into some fantastic photo sphere shots of his home city, Brisbane</p>
                 </div>
                 <div className="hidden sm:inline-block mx-auto p-2 max-w-max bg-white">
