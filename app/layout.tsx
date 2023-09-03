@@ -43,13 +43,13 @@ export default function RootLayout({
 				<Analytics />
 				<footer className="bg-slate-600">
 					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
-						<div className="hidden md:block">
+						<div className="pt-8 sm:pt-6 md:pt-0 pb-6 sm:pb-0">
 							<BrandImage />
 						</div>
-						<div className="hidden sm:block sm:pt-8 md:pt-6 md:pb-6">
+						<div className="hidden sm:block md:pt-6 pb-6">
 							<Navbar />
 						</div>
-						<div className="pt-8 sm:pt-6 md:pt-6 pb-6 md:pb-6">
+						<div className="hidden md:block py-6">
 							<div className="inline-block pr-2">
 								<GithubIcon />
 							</div>
