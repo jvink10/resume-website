@@ -47,8 +47,8 @@ export default function MobileNavBar() {
                                     <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
                                 </li>
                             </ul>
-                            <div className="mt-4">
-                            <BrandImage image="/brand/logo-transparent.png" imageWidth={200} imageHeight={76} />
+                            <div className="mx-2 mt-4">
+                                <BrandImage image="/brand/logo-transparent.png" imageWidth={200} imageHeight={76} />
                             </div>
                         </div>
                     </div>
