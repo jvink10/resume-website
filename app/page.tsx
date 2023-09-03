@@ -1,8 +1,18 @@
+import BrandImage from '../components/BrandImage';
 import ProjectSummary from '../components/ProjectSummary';
 
 export default function Home() {
   	return (
 		<main className="flex-grow bg-slate-700">
+			<section className="px-8 pt-16 text-center">
+				<div className="pb-8">
+					<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
+				</div>
+				<div className="mx-auto w-[512px] space-y-4">
+					<p>Vink Web Development is an Australian web development and design company focused on &apos;Crafting Digital Nests&apos;</p>
+					<p>The company is run by Jordan Vink, a full stack web developer</p>
+				</div>
+			</section>
 			<section className="px-8 py-16">
 				<div className="mx-8 md:mx-16 lg:mx-32 mb-16 bg-gradient-to-r from-transparent via-white to-transparent py-px">
 					<div className="py-4 w-full h-full bg-slate-700">
