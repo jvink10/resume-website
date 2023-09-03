@@ -7,10 +7,10 @@ export default function Navbar() {
 
     return (
         <div>
-            <Link href="/" className={`px-4 py-6 ${pathname === "/" ? "font-bold" : ""}`}>Home</Link>
-			<Link href="/work" className={`px-4 py-6 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
-			<Link href="/about" className={`px-4 py-6 ${pathname === "/about" ? "font-bold" : ""}`}>About</Link>
-			<Link href="/contact" className={`px-4 py-6 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
+            <Link href="/" className={`px-4 py-6 ${pathname === "/" ? "text-brand-blue" : ""}`}>Home</Link>
+			<Link href="/work" className={`px-4 py-6 ${pathname === "/work" ? "text-brand-blue" : ""}`}>Work</Link>
+			<Link href="/about" className={`px-4 py-6 ${pathname === "/about" ? "text-brand-blue" : ""}`}>About</Link>
+			<Link href="/contact" className={`px-4 py-6 ${pathname === "/contact" ? "text-brand-blue" : ""}`}>Contact</Link>
         </div>
     );
 };

@@ -35,16 +35,16 @@ export default function MobileNavBar() {
                             </div>
                             <ul className="text-lg">
                                 <li>
-                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "font-bold" : ""}`}>Home</Link>
+                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-brand-blue" : ""}`}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "font-bold" : ""}`}>Work</Link>
+                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "text-brand-blue" : ""}`}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "font-bold" : ""}`}>About</Link>
+                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "text-brand-blue" : ""}`}>About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "font-bold" : ""}`}>Contact</Link>
+                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-brand-blue" : ""}`}>Contact</Link>
                                 </li>
                             </ul>
                             <div className="mx-2 mt-4">
