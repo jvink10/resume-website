@@ -21,8 +21,8 @@ export default function Work() {
                         </div>
                     </div>
                     <div className="relative group basis-1/2 mx-auto lg:mx-0 mt-8 lg:mt-0 lg:h-96 xl:h-[512px] 2xl:h-[640px]">
-                        <Image src="/work/myxos-and-musings/myxos-and-musings-home-desktop.png" alt="Home page of the Myxos and Musings website" width={450} height={722} className="relative lg:absolute inset-y-0 lg:left-0 w-full h-full object-contain transition group-hover:scale-105 z-10" />
-                        <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute inset-y-0 lg:-left-16 lg:top-8 w-full h-1/2 lg:h-full object-contain transition group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.4] lg:group-hover:scale-105 group-hover:z-20" />
+                        <Image src="/work/myxos-and-musings/myxos-and-musings-home-desktop.png" alt="Home page of the Myxos and Musings website" width={450} height={722} className="relative inset-y-0 lg:left-0 w-full h-full object-contain z-10 transition group-hover:scale-105" />
+                        <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute inset-y-0 lg:-left-16 lg:top-8 w-full h-1/2 lg:h-full object-contain group-hover:z-20 transition group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.4] lg:group-hover:scale-105" />
                     </div>
                 </div>
                 <div id="wamos-portugal" className="flex flex-col lg:flex-row-reverse justify-evenly mx-8 my-16 gap-x-4">
