@@ -1,26 +1,25 @@
-# Jordan Vink's website which acts as a resume
-Version 1.1.0
+# Jordan Vink - Vink Web Development
+Version 1.2.0
 
 # To Add:
 
 ## Features
 - Add future page
-- Add :hover features
-- Add more content on about page
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
 
 ## Fix
 - Photo sphere resizing below 512px
+- Myxos and Musings transition
 
 ## Task
 - Improve SEO
 - Improve image loading speed
 
 ## Experiment
-- Consider changing colours to white, with blue as a highlight
-- Add dark mode with dark:
-- CSS animation for myxos and musings collage
-- Change CSS margins to percentages
-- Add text to about page future improvement that would have passed
+- Add text to about page future improvement such as front end
+- Add more content on about page, likely relating to school
+- Consider lowering image resolution to increase page load speed
+- Consider colour redesign
+- Change home page cards
