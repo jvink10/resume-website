@@ -26,7 +26,7 @@ export default function ProjectSummary(props: Props) {
                 <div className="flex flex-row justify-between">
                     <h2 className="my-2 text-xl">{props.title}</h2>
                     {props.linkId ? 
-                        <Link href={`${props.linkId}`} className="my-2 hover:text-blue-200">
+                        <Link href={`${props.linkId}`} className="my-2 hover:text-brand-blue-200 active:text-brand-blue-500">
                             <GoArrowUpRight size={28} />
                         </Link>
                     : null}

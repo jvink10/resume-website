@@ -11,10 +11,10 @@ export default function Work() {
                     <div className="basis-1/2 self-center mx-4 lg:mx-0 lg:max-w-[512px]">
                         <h2 className="mb-2 text-xl">Myxos and Musings Book Sale</h2>
                         <div className="mb-4">
-                            <SkillTag text="Next.js" description="Next.js is a front-end and back-end javascript framework" />
-                            <SkillTag text="Tailwind CSS" description="Tailwind is a CSS library" />
-                            <SkillTag text="Typescript" description="Typescript is a stricter form of javascript" />
-                            <SkillTag text="React" description="React is a javascript library" />
+                            <SkillTag text="Next.js" description="Full stack javascript framework" />
+                            <SkillTag text="Tailwind CSS" description="CSS library" />
+                            <SkillTag text="Typescript" description="Javascript with types" />
+                            <SkillTag text="React" description="Javascript library" />
                         </div>
                         <div>
                             <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
@@ -22,17 +22,17 @@ export default function Work() {
                     </div>
                     <div className="relative group basis-1/2 mx-auto lg:mx-0 mt-8 lg:mt-0 lg:h-96 xl:h-[512px] 2xl:h-[640px]">
                         <Image src="/work/myxos-and-musings/myxos-and-musings-home-desktop.png" alt="Home page of the Myxos and Musings website" width={450} height={722} className="relative inset-y-0 lg:left-0 w-full h-full object-contain z-10 transition group-hover:scale-105" />
-                        <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute inset-y-0 lg:-left-16 lg:top-8 w-full h-1/2 lg:h-full object-contain group-hover:z-20 transition group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.4] lg:group-hover:scale-105" />
+                        <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute inset-y-0 lg:-left-16 top-1/4 lg:top-8 w-full lg:group-hover:w-[505px] h-1/2 lg:h-full object-contain group-hover:z-20 transition group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.4] lg:group-hover:scale-105" />
                     </div>
                 </div>
                 <div id="wamos-portugal" className="flex flex-col lg:flex-row-reverse justify-evenly mx-8 my-16 gap-x-4">
                     <div className="basis-1/2 mx-4 lg:mx-0 lg:max-w-[512px] lg:text-right">
                         <h2 className="mb-2 text-xl">Wamos Portugal Web Development Intern</h2>
                         <div className="mb-4">
-                            <SkillTag text="Laravel" description="Laravel is a back end PHP framework" />
-                            <SkillTag text="SASS" description="SASS is a CSS preprocessor that extends CSS&apos;s capabilities" />
-                            <SkillTag text="jQuery" description="jQuery is a javascript library" />
-                            <SkillTag text="PHP" description="PHP is a server side programming language" />
+                            <SkillTag text="Laravel" description="Back end PHP framework" />
+                            <SkillTag text="SASS" description="CSS preprocessor" />
+                            <SkillTag text="jQuery" description="Javascript library" />
+                            <SkillTag text="PHP" description="Server side programming language" />
                         </div>
                         <div>
                             <p>Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface.</p>

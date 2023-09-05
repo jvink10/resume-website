@@ -9,8 +9,8 @@ export default function Contact() {
                     <HeadingBox text="Want To Get In Contact?" />
                 </div>
                 <div className="space-y-4">
-                    <Link href="https://www.linkedin.com/in/jordan-vink" target="_blank" className="block underline hover:text-brand-blue-200">Visit My Linkedin</Link>
-                    <Link href="https://github.com/jvink10" target="_blank" className="block underline hover:text-brand-blue-200">Check Out My Github</Link>
+                    <Link href="https://www.linkedin.com/in/jordan-vink" target="_blank" className="block underline hover:text-brand-blue-200 active:text-brand-blue-500">Visit My Linkedin</Link>
+                    <Link href="https://github.com/jvink10" target="_blank" className="block underline hover:text-brand-blue-200 active:text-brand-blue-500">Check Out My Github</Link>
                     <p>Contact me at jordanvink10@gmail.com</p>
                 </div>
             </section>

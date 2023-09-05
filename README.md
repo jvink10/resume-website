@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.2.0
+Version 1.2.1
 
 # To Add:
 
@@ -11,7 +11,7 @@ Version 1.2.0
 
 ## Fix
 - Photo sphere resizing below 512px
-- Myxos and Musings transition
+- Myxos and Musings transition twitch + exceeding screen width
 
 ## Task
 - Improve SEO
