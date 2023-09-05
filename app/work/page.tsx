@@ -8,13 +8,13 @@ export default function Work() {
         <main className="flex-grow bg-slate-700">
             <section>
                 <div id="myxos-and-musings" className="flex flex-col lg:flex-row justify-evenly mx-8 my-16 gap-x-4">
-                    <div className="basis-1/2 self-center mx-4 sm:mx-8 lg:mx-0 lg:max-w-[512px]">
+                    <div className="basis-1/2 self-center mx-4 lg:mx-0 lg:max-w-[512px]">
                         <h2 className="mb-2 text-xl">Myxos and Musings Book Sale</h2>
                         <div className="mb-4">
-                            <SkillTag text="Next.js" />
-                            <SkillTag text="Tailwind CSS" />
-                            <SkillTag text="Typescript" />
-                            <SkillTag text="React" />
+                            <SkillTag text="Next.js" description="Next.js is a front-end and back-end javascript framework" />
+                            <SkillTag text="Tailwind CSS" description="Tailwind is a CSS library" />
+                            <SkillTag text="Typescript" description="Typescript is a stricter form of javascript" />
+                            <SkillTag text="React" description="React is a javascript library" />
                         </div>
                         <div>
                             <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
@@ -26,13 +26,13 @@ export default function Work() {
                     </div>
                 </div>
                 <div id="wamos-portugal" className="flex flex-col lg:flex-row-reverse justify-evenly mx-8 my-16 gap-x-4">
-                    <div className="basis-1/2 mx-4 sm:mx-8 lg:mx-0 lg:max-w-[512px] lg:text-right">
+                    <div className="basis-1/2 mx-4 lg:mx-0 lg:max-w-[512px] lg:text-right">
                         <h2 className="mb-2 text-xl">Wamos Portugal Web Development Intern</h2>
                         <div className="mb-4">
-                            <SkillTag text="Laravel" />
-                            <SkillTag text="SASS" />
-                            <SkillTag text="jQuery" />
-                            <SkillTag text="PHP" />
+                            <SkillTag text="Laravel" description="Laravel is a back end PHP framework" />
+                            <SkillTag text="SASS" description="SASS is a CSS preprocessor that extends CSS&apos;s capabilities" />
+                            <SkillTag text="jQuery" description="jQuery is a javascript library" />
+                            <SkillTag text="PHP" description="PHP is a server side programming language" />
                         </div>
                         <div>
                             <p>Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface.</p>
