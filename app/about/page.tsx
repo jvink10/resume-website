@@ -18,12 +18,17 @@ export default function About() {
             </section>
             <section>
                 <div className="my-16">
-                    <HeadingBox text="Goals for Future Improvement" />
+                    <HeadingBox text="Improvement" />
                 </div>
                 <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
                     <div className="space-y-2">
+                        <h2 className="text-lg">Front End</h2>
+                        <p>Jordan initially learned front end web development, having enjoyed javascript's similarities to what he had learned in school.</p>
+                        <p>He simultaneously learned HTML and CSS while having used javascript as the crutch that he understood.</p>
+                    </div>
+                    <div className="space-y-2">
                         <h2 className="text-lg">Next.js</h2>
-                        <p className="ml-1">Jordan want to focus on continuing to develop his skills in Next.js to a greater level.</p>
+                        <p className="ml-1">Presently, Jordan wants to focus on continuing to develop his skills in Next.js to a greater level.</p>
                         <p className="ml-1">Once he feels that he has progressed to a comfortable level of expertise, he intends on expanding his web development abilities beyond Next.js and React.</p>
                     </div>
                     <div className="space-y-2">
