@@ -23,7 +23,7 @@ export default function About() {
                 <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
                     <div className="space-y-2">
                         <h2 className="text-lg">Front End</h2>
-                        <p>Jordan initially learned front end web development, having enjoyed javascript's similarities to what he had learned in school.</p>
+                        <p>Jordan initially learned front end web development, having enjoyed javascript&apos;s similarities to what he had learned in school.</p>
                         <p>He simultaneously learned HTML and CSS while having used javascript as the crutch that he understood.</p>
                     </div>
                     <div className="space-y-2">
