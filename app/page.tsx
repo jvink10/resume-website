@@ -10,8 +10,8 @@ export default function Home() {
 					<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
 				</div>
 				<div className="mx-auto max-w-[512px] space-y-4">
-					<p>Vink Web Development is an Australian web development and design company focused on &apos;Crafting Digital Nests&apos;</p>
-					<p>The company is run by Jordan Vink, a full stack web developer</p>
+					<p>Vink Web Development offers professional web development and design services, specialising in &apos;Crafting Digital Nests&apos; for individuals and businesses in Australia</p>
+					<p>Led by Jordan Vink, a full stack web developer</p>
 				</div>
 			</section>
 			<section className="mx-8 my-16">
@@ -25,7 +25,7 @@ export default function Home() {
 						imagePadding={false}
 						imageWidth={512}
 						imageHeight={192}
-						summary="Managed pricing and design for the sale of the Myxos and Musings book."
+						summary="Developed the front end, back end, and payment system for the sale of the Myxos and Musings book."
 						linkId="/work#myxos-and-musings" />
 					<ProjectSummary
 						title="Wamos Portugal Web Development Intern"
