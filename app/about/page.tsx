@@ -6,6 +6,18 @@ export default function About() {
         <main className="flex-grow bg-slate-700">
             <section>
                 <div className="my-16">
+                    <HeadingBox text="Background" />
+                </div>
+                <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
+                    <div className="space-y-2">
+                        <h2 className="text-lg">School</h2>
+                        <p className="ml-1">Jordan was introduced to programming in his first year of high school, in grade eight, 2014.</p>
+                        <p className="ml-1">Graduated from Kelvin Grove State College at the end of 2018. The classes taken were English, Math B, Math C, Physics, Engineering, and IT.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="my-16">
                     <HeadingBox text="Goals for Future Improvement" />
                 </div>
                 <div className="mx-auto xl:mx-96 px-4 max-w-[384px] space-y-8">
