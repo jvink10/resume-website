@@ -7,23 +7,23 @@ export default function Work() {
     return (
         <main className="flex-grow bg-slate-700">
             <section>
-                <div id="myxos-and-musings" className="flex flex-col lg:flex-row justify-evenly mx-8 my-16 gap-x-4">
+                <div id="myxos-and-musings" className="flex flex-col lg:flex-row justify-evenly mx-8 md:mx-12 lg:mx-8 my-16 gap-x-4">
                     <div className="basis-1/2 self-center mx-4 lg:mx-0 lg:max-w-[512px]">
                         <h2 className="mb-2 text-xl">Myxos and Musings Book Sale</h2>
                         <div className="mb-4">
                             <SkillTag text="Next.js" description="Full stack javascript framework" />
                             <SkillTag text="Tailwind CSS" description="CSS library" />
-                            <SkillTag text="Typescript" description="Javascript with types" />
+                            <SkillTag text="TypeScript" description="Javascript with types" />
                             <SkillTag text="React" description="Javascript library" />
                         </div>
                         <div>
                             <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
                         </div>
                     </div>
-                    <div className="basis-1/2 lg:mx-0 mt-8 lg:mt-0 lg:h-96 xl:h-[512px] 2xl:h-[640px]">
-                        <div className="relative group mx-auto aspect-square max-w-full max-h-full">
+                    <div className="basis-1/2 lg:mx-0 mt-12 lg:mt-0 lg:h-96 xl:h-[512px] 2xl:h-[640px]">
+                        <div className="relative group mx-auto lg:aspect-square max-w-full max-h-full">
                             <Image src="/work/myxos-and-musings/myxos-and-musings-home-desktop.png" alt="Home page of the Myxos and Musings website" width={450} height={722} className="relative inset-y-0 w-full h-full object-contain z-10 transition group-hover:scale-105" />
-                            <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute inset-y-0 lg:-left-16 top-1/4 lg:top-8 lg:w-full h-1/2 lg:h-full object-contain group-hover:z-20 transition group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.4] lg:group-hover:scale-105" />
+                            <Image src="/work/myxos-and-musings/myxos-and-musings-purchase-desktop-90.png" alt="Purchase page of the Myxos and Musings website" width={505} height={908} className="absolute mx-auto lg:mx-0 inset-x-0 lg:-left-16 top-1/4 lg:top-8 bottom-0 lg:w-full h-1/2 lg:h-full object-contain group-hover:z-20 transition rotate-90 lg:rotate-0 lg:group-hover:rotate-90 lg:group-hover:translate-x-16 lg:group-hover:-translate-y-8 group-hover:scale-[1.35] lg:group-hover:scale-105" />
                         </div>
                     </div>
                 </div>

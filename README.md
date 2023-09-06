@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.2.2
+Version 1.2.3
 
 # To Add:
 
@@ -8,7 +8,8 @@ Version 1.2.2
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
-- Add case studies for work including the problem, solution, and tech
+- Add case studies for work including the problem, solution,  tech, and time
+- Give indication that myxos and musings can be clicked or hovered
 
 ## Fix
 - Photo sphere resizing below 512px
