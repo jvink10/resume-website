@@ -16,8 +16,10 @@ export default function Work() {
                             <SkillTag text="TypeScript" description="Javascript with types" />
                             <SkillTag text="React" description="Javascript library" />
                         </div>
-                        <div>
-                            <p>Designed and developed the front end, back end, and payment system of the website for the sale of the Myxos and Musings book by Steve Young.</p>
+                        <div className="space-y-2">
+                            <p>Designed and developed the front end, back end, and payment system, reducing transaction fees to 1.75% from PayPal&apos;s 2.6%, resulting in a cost savings of 30%.</p>
+                            <p>Managed and optimised postage costs for domestic shipments, successfully maintaining a flat rate pricing of $10.60 for all items, from the book&apos;s 0.4kg weight up to 12 books at 5kg, saving up to $11.35 per shipment compared to the rate of $21.95 for large 5kg parcels.</p>
+                            <p>Strategically managed international postage by implementing a zone-based approach, optimising shipping costs for each individual country.</p>
                         </div>
                     </div>
                     <div className="basis-1/2 lg:mx-0 mt-12 lg:mt-0 lg:h-96 xl:h-[512px] 2xl:h-[640px]">
@@ -36,8 +38,9 @@ export default function Work() {
                             <SkillTag text="jQuery" description="Javascript library" />
                             <SkillTag text="PHP" description="Server side programming language" />
                         </div>
-                        <div>
-                            <p>Four month internship at Wamos Portugal, tasked with completing an internal security test and the rework of a data table interface.</p>
+                        <div className="space-y-2">
+                            <p>Conducted an internal security test by recreating the Microsoft website with intentional flaws, avoiding security risk detection, and developing an exportable data table for excel.</p>
+                            <p>Completed the rework of a data table interface, including edit and remove functionality, a modal for adding data, and a toggleable drop down for filtering.</p>
                         </div>
                     </div>
                     <div className="basis-1/2">
