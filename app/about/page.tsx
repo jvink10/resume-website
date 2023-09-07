@@ -73,6 +73,19 @@ export default function About() {
                     </div>
                 </div>
             </section>
+            <section className="flex flex-col mx-auto my-16 space-y-4">
+                <div className="my-8">
+                    <HeadingBox text="Interests" />
+                </div>
+                <div className="mx-auto px-4 max-w-[512px] space-y-2">
+                    <p>Due to having relatives living in Portugal, Jordan has begun the arduous journey of learning a second language. While he is only at a beginner level currently, he hopes to make significant progress in the coming years.</p>
+                    <p>In his free time, he enjoys reading a book, able to spend the entire day immersed without realising it if he never checks the time.</p>
+                    <p>Jordan enjoys taking photo spheres with his phone and going on long walks, which he combines into some fantastic photo sphere shots of his home city, Brisbane</p>
+                </div>
+                <div className="hidden sm:inline-block mx-auto p-2 max-w-max bg-white">
+                    <PhotoSphere image="/photo-spheres/bardon-esplanade-park.jpg" imageWidth={512} imageHeight={384} />
+                </div>
+            </section>
         </main>
     );
 };
