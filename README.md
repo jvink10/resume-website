@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.3.1
+Version 1.4.0
 
 # To Add:
 
@@ -8,10 +8,10 @@ Version 1.3.1
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
-- Give indication that myxos and musings can be clicked or hovered
+- Re-add about page background and interests
 
 ## Fix
-- Photo sphere resizing below 512px
+- About page images being difficult to see
 
 ## Task
 - Improve SEO
@@ -19,5 +19,8 @@ Version 1.3.1
 
 ## Experiment
 - Consider lowering image resolution to increase page load speed
-- Consider colour redesign
 - Change home page cards
+- Home page sticky or fixed logo
+- Add transition effects to nav hover and skill tags
+- Passive or on-load transition
+- Give indication that myxos and musings can be clicked or hovered
