@@ -33,16 +33,16 @@ export default function MobileNavBar() {
                             </div>
                             <ul className="text-lg text-center">
                                 <li>
-                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-malibu hover:text-malibu-500 active:text-malibu-700" : "hover:text-malibu-200 active:text-malibu-500"}`}>Home</Link>
+                                    <Link href="/" onClick={toggleMenu} className={`block py-4 ${pathname === "/" ? "text-malibu hover:text-malibu-500 active:text-malibu-900" : "hover:text-malibu-200 active:text-malibu-500"}`}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "text-malibu hover:text-malibu-500 active:text-malibu-700" : "hover:text-malibu-200 active:text-malibu-500"}`}>Work</Link>
+                                    <Link href="/work" onClick={toggleMenu} className={`block py-4 ${pathname === "/work" ? "text-malibu hover:text-malibu-500 active:text-malibu-900" : "hover:text-malibu-200 active:text-malibu-500"}`}>Work</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "text-malibu hover:text-malibu-500 active:text-malibu-700" : "hover:text-malibu-200 active:text-malibu-500"}`}>About</Link>
+                                    <Link href="/about" onClick={toggleMenu} className={`block py-4 ${pathname === "/about" ? "text-malibu hover:text-malibu-500 active:text-malibu-900" : "hover:text-malibu-200 active:text-malibu-500"}`}>About</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-malibu hover:text-malibu-500 active:text-malibu-700" : "hover:text-malibu-200 active:text-malibu-500"}`}>Contact</Link>
+                                    <Link href="/contact" onClick={toggleMenu} className={`block py-4 ${pathname === "/contact" ? "text-malibu hover:text-malibu-500 active:text-malibu-900" : "hover:text-malibu-200 active:text-malibu-500"}`}>Contact</Link>
                                 </li>
                             </ul>
                             <div className="mx-2 mt-4 text-center">

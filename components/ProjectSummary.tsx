@@ -18,7 +18,7 @@ export default function ProjectSummary(props: Props) {
     } = props;
 
     return (
-        <div className="mx-auto rounded-xl max-w-[512px] bg-malibu-600">
+        <div className="mx-auto rounded-xl max-w-[512px] bg-malibu-700">
             <div className={`rounded-t-xl ${props.imagePadding ? 'p-4' : ''} bg-white`}>
                 <Image src={props.image} alt={`${props.title} image`} width={props.imageWidth} height={props.imageHeight} className={`${props.imagePadding ? '' : 'rounded-t-xl'} mx-auto`} />
             </div>
@@ -26,7 +26,7 @@ export default function ProjectSummary(props: Props) {
                 <div className="flex flex-row justify-between">
                     <h2 className="my-2 text-xl">{props.title}</h2>
                     {props.linkId ? 
-                        <Link href={`${props.linkId}`} className="my-2 hover:opacity-75">
+                        <Link href={`${props.linkId}`} className="my-2 hover:opacity-75 active:opacity-50">
                             <GoArrowUpRight size={28} />
                         </Link>
                     : null}
