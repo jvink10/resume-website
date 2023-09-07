@@ -6,6 +6,26 @@ import PhotoSphere from '../../components/PhotoSphere';
 export default function About() {
     return (
         <main className="flex-grow bg-malibu-900">
+            <section>
+                <div className="my-16">
+                    <HeadingBox text="Background" />
+                </div>
+                <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-start space-y-8 lg:space-y-0">
+                    <div className="max-w-[384px] space-y-2">
+                        <h2 className="text-lg">School</h2>
+                        <p className="ml-1">Jordan was introduced to programming in his first year of high school, in grade eight, 2014.</p>
+                        <p className="ml-1">His first projects in class were made with a modified language, made to be similar, but easier, than Java.</p>
+                        <p className="ml-1">The majority of assignments were game creation, during which he always overestimated his ability to develop realistic movement, resulting in characters able to accelerate infinitely.</p>
+                        <p className="ml-1">He graduated from Kelvin Grove State College at the end of 2018. The classes taken were English, Math B, Math C, Physics, Engineering, and IT.</p>
+                    </div>
+                    <div className="max-w-[384px] space-y-2">
+                        <h2 className="text-lg">University</h2>
+                        <p className="ml-1">Jordan initially took a double bachelor of Science and IT, however, after a full year of learning, he came to the conclusion that it wasn't what he wanted to do anymore.</p>
+                        <p className="ml-1">He then considered a degree in Mathematics, but quickly realised that that wasn't what he was interested in either.</p>
+                        <p className="ml-1">It was only when he was presented with the opportunity of a web development internship at Wamos Portugal that his passion for programming was rekindled, now targeted specifically at web development.</p>
+                    </div>
+                </div>
+            </section>
             <section className="my-16">
                 <div className="my-16">
                     <HeadingBox text="Improvement" />
