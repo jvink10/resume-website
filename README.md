@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.4.0
+Version 1.4.1
 
 # To Add:
 
@@ -8,10 +8,9 @@ Version 1.4.0
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
-- Re-add about page background and interests
+- error code 404, 500 pages
 
 ## Fix
-- About page images being difficult to see
 
 ## Task
 - Improve SEO
