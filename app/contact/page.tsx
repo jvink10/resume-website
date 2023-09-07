@@ -3,7 +3,7 @@ import HeadingBox from '../../components/HeadingBox';
 
 export default function Contact() {
     return (
-        <main className="flex-grow bg-malibu-700">
+        <main className="flex-grow bg-malibu-900">
             <section className="my-16 space-y-8 text-center">
                 <div>
                     <HeadingBox text="Want To Get In Contact?" />

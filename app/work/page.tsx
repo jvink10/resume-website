@@ -5,7 +5,7 @@ import SkillTag from '../../components/SkillTag';
 
 export default function Work() {
     return (
-        <main className="flex-grow bg-malibu-700">
+        <main className="flex-grow bg-malibu-900">
             <section>
                 <div id="myxos-and-musings" className="flex flex-col lg:flex-row justify-evenly mx-8 md:mx-12 lg:mx-8 my-16 gap-x-4">
                     <div className="basis-1/2 self-center mx-4 lg:mx-0 lg:max-w-[512px]">

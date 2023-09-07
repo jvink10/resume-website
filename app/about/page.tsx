@@ -5,7 +5,7 @@ import PhotoSphere from '../../components/PhotoSphere';
 
 export default function About() {
     return (
-        <main className="flex-grow bg-malibu-700">
+        <main className="flex-grow bg-malibu-900">
             <section className="my-16">
                 <div className="my-16">
                     <HeadingBox text="Improvement" />

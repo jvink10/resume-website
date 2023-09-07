@@ -3,7 +3,7 @@ import ProjectSummary from '../components/ProjectSummary';
 
 export default function Home() {
   	return (
-		<main className="flex-grow flex flex-col lg:flex-row justify-evenly bg-malibu-700">
+		<main className="flex-grow flex flex-col lg:flex-row justify-evenly bg-malibu-900">
 			<section className="mx-8 my-auto py-8 text-center">
 				<div className="pb-8">
 					<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
