@@ -24,7 +24,7 @@ export default function RootLayout({
   	return (
     	<html lang="en">
       		<body className={`${inter.className} flex flex-col min-h-screen text-white`}>
-				<header className="bg-slate-800">
+				<header className="border-b border-white border-opacity-25 bg-malibu-700">
 					<div className="flex flex-row-reverse lg:flex-row justify-between px-8 lg:px-16">
 						<h1 className="inline-block py-6 text-xl font-bold">
 							<p className="inline">Jordan Vink</p>
@@ -41,7 +41,7 @@ export default function RootLayout({
 				</header>
       			{children}
 				<Analytics />
-				<footer className="bg-slate-600">
+				<footer className="bg-malibu-700">
 					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
 						<div className="pt-8 sm:pt-6 md:pt-0 pb-6 sm:pb-0">
 							<BrandImage image="/brand/logo-transparent-no-slogan.png" imageWidth={200} imageHeight={56} />
@@ -58,8 +58,8 @@ export default function RootLayout({
 							</div>
 						</div>
 					</div>
-					<div className="mx-16 lg:mx-32 border-t border-slate-400 py-8">
-					<p className="text-center">&copy; {new Date().getFullYear()} Jordan Vink. All rights reserved.</p>
+					<div className="mx-16 lg:mx-32 border-t border-white border-opacity-25 py-8">
+						<p className="text-center">&copy; {new Date().getFullYear()} Jordan Vink. All rights reserved.</p>
 					</div>
 				</footer>
       		</body>
