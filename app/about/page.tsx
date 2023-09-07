@@ -20,8 +20,8 @@ export default function About() {
                     </div>
                     <div className="max-w-[384px] space-y-2">
                         <h2 className="text-lg">University</h2>
-                        <p className="ml-1">Jordan initially took a double bachelor of Science and IT, however, after a full year of learning, he came to the conclusion that it wasn't what he wanted to do anymore.</p>
-                        <p className="ml-1">He then considered a degree in Mathematics, but quickly realised that that wasn't what he was interested in either.</p>
+                        <p className="ml-1">Jordan initially took a double bachelor of Science and IT, however, after a full year of learning, he came to the conclusion that it wasn&apos;t what he wanted to do anymore.</p>
+                        <p className="ml-1">He then considered a degree in Mathematics, but quickly realised that that wasn&apos;t what he was interested in either.</p>
                         <p className="ml-1">It was only when he was presented with the opportunity of a web development internship at Wamos Portugal that his passion for programming was rekindled, now targeted specifically at web development.</p>
                     </div>
                 </div>
