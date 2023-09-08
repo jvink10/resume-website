@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
                 if (!error) {
                     resolve('Email sent');
                 } else {
+                    console.log(error.message);
                     reject(error.message);
                 };
             });
