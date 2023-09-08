@@ -12,7 +12,7 @@ type Props = {
     linkId?: string;
 };
 
-export default function ProjectSummary(props: Props) {
+export default function WorkCard(props: Props) {
     const {
         imagePadding = false,
     } = props;
