@@ -1,10 +1,9 @@
 'use client'
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { AiOutlineMenu } from 'react-icons/ai';
-
-import BrandImage from '../BrandImage';
 
 export default function MobileNavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +45,7 @@ export default function MobileNavBar() {
                                 </li>
                             </ul>
                             <div className="mx-2 mt-4 text-center">
-                                <BrandImage image="/brand/logo-transparent.png" imageWidth={200} imageHeight={76} />
+                                <Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={200} height={76} />
                             </div>
                         </div>
                     </div>

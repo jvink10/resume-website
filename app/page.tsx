@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { GoArrowRight } from 'react-icons/go';
 
-import BrandImage from '../components/BrandImage';
 import WorkCard from '../components/WorkCard';
 import AboutCard from '../components/AboutCard';
 import HeadingBox from '../components/HeadingBox';
@@ -12,7 +11,7 @@ export default function Home() {
 			<section className="flex flex-col lg:flex-row justify-evenly my-16">
 				<div className="mx-8 my-auto py-8 text-center">
 					<div className="pb-8">
-						<BrandImage image="/brand/logo-transparent.png" imageWidth={400} imageHeight={153} />
+						<Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={400} height={153} />
 					</div>
 					<div className="mx-auto max-w-[512px] space-y-4">
 						<p>Vink Web Development offers professional web development and design services, specialising in &apos;Crafting Digital Nests&apos; for individuals and businesses in Australia</p>

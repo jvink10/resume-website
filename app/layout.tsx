@@ -2,10 +2,10 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import Image from 'next/image';
 
 import MobileNavBar from '../components/nav/MobileNavBar';
 import Navbar from '../components/nav/NavBar';
-import BrandImage from '../components/BrandImage';
 import GithubIcon from '../components/nav/GithubIcon';
 import LinkedinIcon from '../components/nav/LinkedinIcon';
 
@@ -44,7 +44,7 @@ export default function RootLayout({
 				<footer className="bg-malibu-700">
 					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
 						<div className="pt-8 sm:pt-6 md:pt-0 pb-6 sm:pb-0">
-							<BrandImage image="/brand/logo-transparent-no-slogan.png" imageWidth={200} imageHeight={56} />
+							<Image src="/brand/logo-transparent-no-slogan.png" alt="Vink Web Development logo" width={200} height={56} />
 						</div>
 						<div className="hidden sm:block md:pt-6 pb-6">
 							<Navbar />
