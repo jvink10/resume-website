@@ -44,7 +44,7 @@ export default function RootLayout({
 				<footer className="bg-malibu-700">
 					<div className="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4 md:place-items-center text-center">
 						<div className="pt-8 sm:pt-6 md:pt-0 pb-6 sm:pb-0">
-							<Image src="/brand/logo-transparent-no-slogan.png" alt="Vink Web Development logo" width={200} height={56} />
+							<Image src="/brand/logo-transparent-no-slogan.png" alt="Vink Web Development logo" width={200} height={56} className="inline-block" />
 						</div>
 						<div className="hidden sm:block md:pt-6 pb-6">
 							<Navbar />

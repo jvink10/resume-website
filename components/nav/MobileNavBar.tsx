@@ -45,7 +45,7 @@ export default function MobileNavBar() {
                                 </li>
                             </ul>
                             <div className="mx-2 mt-4 text-center">
-                                <Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={200} height={76} />
+                                <Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={200} height={76} className="inline-block" />
                             </div>
                         </div>
                     </div>

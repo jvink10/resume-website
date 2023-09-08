@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.5.1
+Version 1.5.2
 
 # To Add:
 

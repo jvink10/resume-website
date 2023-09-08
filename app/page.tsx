@@ -11,7 +11,7 @@ export default function Home() {
 			<section className="flex flex-col lg:flex-row justify-evenly my-16">
 				<div className="mx-8 my-auto py-8 text-center">
 					<div className="pb-8">
-						<Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={400} height={153} />
+						<Image src="/brand/logo-transparent.png" alt="Vink Web Development logo" width={400} height={153} className="inline-block" />
 					</div>
 					<div className="mx-auto max-w-[512px] space-y-4">
 						<p>Vink Web Development offers professional web development and design services, specialising in &apos;Crafting Digital Nests&apos; for individuals and businesses in Australia</p>
