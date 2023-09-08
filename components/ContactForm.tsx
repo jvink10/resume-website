@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -9,6 +10,7 @@ export default function ContactForm() {
     });
     const [error, setError] = useState(false);
     const [responseMessage, setResponseMessage] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
 
     const validateEmail = () => {
         const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -26,7 +28,8 @@ export default function ContactForm() {
     const handleSubmit = async (event: any) => {
         event.preventDefault();
         if (formData.name && validateEmail() && formData.message) {
-            fetch('/api/sendemail', {
+            setIsLoading(true);
+            await fetch('/api/sendemail', {
                 method: 'POST',
                 body: JSON.stringify(formData),
             })
@@ -41,6 +44,7 @@ export default function ContactForm() {
         } else {
             setError(true);
         };
+        setIsLoading(false);
     };
 
     return (
@@ -48,6 +52,7 @@ export default function ContactForm() {
             <div className="text-lg text-center">
                 <p>Send Me A Message Here</p>
                 <p className="text-green-500">{responseMessage}</p>
+                <AiOutlineLoading3Quarters size={28} className={`${isLoading ? "block" : "hidden"} animate-spin mx-auto mt-2`} />
             </div>
             <div>
                 <label htmlFor="name" className={`after:content-['*'] after:ml-0.5 ${error ? 'after:text-red-500' : ''}`}>Name</label>
