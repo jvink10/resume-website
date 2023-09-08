@@ -40,7 +40,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="my-16 py-8 lg:py-16 bg-white">
+			<section className="my-16 py-16 bg-white">
 				<div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-start space-y-8 lg:space-y-0">
 					<div>
 						<AboutCard
