@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.5.0
+Version 1.5.1
 
 # To Add:
 
@@ -8,15 +8,15 @@ Version 1.5.0
 - Add personal projects page
 - Add invoicing for clients, likely on contact page
 - error code 404, 500 pages
-- Contact form loading indication
+- Add favicon
 
 ## Fix
 - Change data types for contact form
+- Add contact form visible error message
 
 ## Task
 - Improve SEO
 - Improve image loading speed
-- Replace BrandImage component with Image
 
 ## Experiment
 - Consider lowering image resolution to increase page load speed
