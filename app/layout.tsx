@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'Jordan Vink',
-  	description: 'Web development and design - Jordan Vink',
+  	description: 'Jordan Vink - Vink Web Development - Web Development And Design Portfolio',
 };
 
 export default function RootLayout({
