@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import { GoArrowRight } from 'react-icons/go';
+
 import BrandImage from '../components/BrandImage';
 import WorkCard from '../components/WorkCard';
 import AboutCard from '../components/AboutCard';
@@ -56,6 +59,36 @@ export default function Home() {
 							title="Interests"
 							summary="Interested in what Jordan does in his spare time?"
 							linkId="/about#interests" />
+					</div>
+				</div>
+			</section>
+			<section className="my-16">
+				<div className="my-16">
+					<HeadingBox text="Here Are Some Of My Personal Projects" />
+				</div>
+				<div>
+					<div className="mx-4 lg:mx-8 space-y-8">
+						<div className="mx-auto max-w-[512px] space-y-2">
+							<h2 className="text-lg">Porfolio Website</h2>
+							<p>The portfolio website is the website you are currently reading this on. It&apos;s design has gone through several iterations, and is still being updated.</p>
+						</div>
+						<div className="flex flex-col lg:flex-row justify-around items-center gap-4">
+							<div className="border-2 rounded-lg border-white p-3 w-fit">
+								<Image src="/project/portfolio-website/home-page-1.png" alt="Portfolio website home page iteration 1" width={405} height={258} />
+							</div>
+							<GoArrowRight size={28} className="rotate-90 lg:rotate-0" />
+							<div className="border-2 rounded-lg border-white p-3 w-fit">
+								<Image src="/project/portfolio-website/home-page-2.png" alt="Portfolio website home page iteration 2" width={405} height={258} />
+							</div>
+							<GoArrowRight size={28} className="rotate-90 lg:rotate-0" />
+							<div className="border-2 rounded-lg border-white p-3 w-fit">
+								<Image src="/project/portfolio-website/home-page-3.png" alt="Portfolio website home page iteration 3" width={405} height={258} />
+							</div>
+							<GoArrowRight size={28} className="rotate-90 lg:rotate-0" />
+							<div className="border-2 rounded-lg border-white p-3 w-fit">
+								<Image src="/project/portfolio-website/home-page-4.png" alt="Portfolio website home page iteration 4" width={405} height={258} />
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
