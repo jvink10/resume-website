@@ -1,10 +1,11 @@
 # Jordan Vink - Vink Web Development
-Version 1.4.1
+Version 1.4.2
 
 # To Add:
 
 ## Features
 - Add future page
+- Add personal projects page
 - Add email and message functionality on contact page
 - Add contact page content
 - Add invoicing for clients, likely on contact page
@@ -15,6 +16,7 @@ Version 1.4.1
 ## Task
 - Improve SEO
 - Improve image loading speed
+- Replace BrandImage component with Image
 
 ## Experiment
 - Consider lowering image resolution to increase page load speed
