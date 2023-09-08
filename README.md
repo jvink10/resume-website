@@ -1,17 +1,17 @@
 # Jordan Vink - Vink Web Development
-Version 1.4.2
+Version 1.5.0
 
 # To Add:
 
 ## Features
 - Add future page
 - Add personal projects page
-- Add email and message functionality on contact page
-- Add contact page content
 - Add invoicing for clients, likely on contact page
 - error code 404, 500 pages
+- Contact form loading indication
 
 ## Fix
+- Change data types for contact form
 
 ## Task
 - Improve SEO
@@ -21,7 +21,7 @@ Version 1.4.2
 ## Experiment
 - Consider lowering image resolution to increase page load speed
 - Change home page cards
-- Home page sticky or fixed logo
+- Home page sticky or fixed logo (lg:sticky mx-8 py-8 h-fit top-1/4 text-center)
 - Add transition effects to nav hover and skill tags
 - Passive or on-load transition
 - Give indication that myxos and musings can be clicked or hovered
