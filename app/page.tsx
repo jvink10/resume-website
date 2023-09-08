@@ -40,8 +40,8 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="my-16 py-16 bg-white">
-				<div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-start space-y-16 lg:space-y-0">
+			<section className="my-16 py-8 lg:py-16 bg-white">
+				<div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-start space-y-8 lg:space-y-0">
 					<div>
 						<AboutCard
 							title="Education"
@@ -70,7 +70,7 @@ export default function Home() {
 					<div className="mx-4 lg:mx-8 space-y-8">
 						<div className="mx-auto max-w-[512px] space-y-2">
 							<h2 className="text-lg">Porfolio Website</h2>
-							<p>The portfolio website is the website you are currently reading this on. It&apos;s design has gone through several iterations, and is still being updated.</p>
+							<p>The portfolio website is the website you are currently reading this on. Its design has gone through several iterations, and is still being updated.</p>
 						</div>
 						<div className="flex flex-col lg:flex-row justify-around items-center gap-4">
 							<div className="border-2 rounded-lg border-white p-3 w-fit">
