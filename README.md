@@ -8,7 +8,6 @@ Version 1.5.2
 - Add personal projects page
 - Add invoicing for clients, likely on contact page
 - error code 404, 500 pages
-- Add favicon
 
 ## Fix
 - Change data types for contact form

@@ -12,8 +12,8 @@ import LinkedinIcon from '../components/nav/LinkedinIcon';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Jordan Vink',
-  	description: 'Jordan Vink - Vink Web Development - Web Development And Design Portfolio',
+	title: 'Jordan Vink - Vink Web Development - Web Development And Design Portfolio',
+  	description: 'Jordan Vink&apos;s Web Development And Design Portfolio',
 };
 
 export default function RootLayout({
