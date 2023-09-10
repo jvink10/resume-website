@@ -1,5 +1,5 @@
 # Jordan Vink - Vink Web Development
-Version 1.5.2
+Version 1.5.3
 
 # To Add:
 
@@ -10,8 +10,6 @@ Version 1.5.2
 - error code 404, 500 pages
 
 ## Fix
-- Change data types for contact form
-- Add contact form visible error message
 
 ## Task
 - Improve SEO
