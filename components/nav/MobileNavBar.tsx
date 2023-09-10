@@ -15,7 +15,7 @@ export default function MobileNavBar() {
 
     return (
         <div>
-            <div className="mt-6">
+            <div className="py-6">
                 <button onClick={toggleMenu} className="border rounded-md border-white p-1 hover:text-malibu-200">
                     <AiOutlineMenu size={20} />
                 </button>
