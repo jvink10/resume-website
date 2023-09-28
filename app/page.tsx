@@ -79,6 +79,20 @@ export default function Home() {
 								<p>Room View takes after my passion for photospheres, designed for the displaying of interior spaces. You simply add a background image, such as an architect&apos;s floor plan or an image from google maps, and insert photospheres over top.</p>
 							</div>
 							<Image src="/project/room-view/room-page.png" alt="Room view&apos;s Room page" height={1010} width={1817} className="mx-auto p-8 w-2/3" />
+							<div className="mx-auto px-8 max-w-[512px]">
+								<h2 className="my-2 text-lg text-center">Current Features</h2>
+								<ul className="list-disc">
+									<li>Add a background image from your computer.</li>
+									<li>Inlcude photospheres in your camera roll.</li>
+									<li>Determine photosphere position on the map.</li>
+								</ul>
+								<h2 className="my-2 text-lg text-center">Planned Features</h2>
+								<ul className="list-disc">
+									<li>Advanced photosphere grouping, based on date, time of day, or weather.</li>
+									<li>Layered Background for multistory buildings.</li>
+									<li>Accounts and database storage.</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
