@@ -3,7 +3,8 @@ Version 1.5.3
 
 # To Add:
 
-## Features
+## 
+- Add young photography page link
 - Add future page
 - Add personal projects page
 - Add invoicing for clients, likely on contact page
