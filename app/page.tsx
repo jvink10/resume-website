@@ -76,9 +76,9 @@ export default function Home() {
 										<GoArrowUpRight size={28} />
 									</Link>
 								</div>
-								<p>Room View takes after my passion for photospheres, designed for the displaying of interior spaces. You simply add a background image, such as an architect&apos;s floor plan or an image from google maps, and insert photospheres over top.</p>
+								<p>Room View embodies my passion for photospheres, designed for the displaying of interior spaces. You simply add a background image, such as an architect&apos;s floor plan or an image from google maps, and insert photospheres over top.</p>
 							</div>
-							<Image src="/project/room-view/room-page.png" alt="Room view&apos;s Room page" height={1010} width={1817} className="mx-auto p-8 w-2/3" />
+							<Image src="/project/room-view/room-page.png" alt="Room view&apos;s Room page" height={1010} width={1817} className="mx-auto p-8 lg:w-2/3" />
 							<div className="mx-auto px-8 max-w-[512px]">
 								<h2 className="my-2 text-lg text-center">Current Features</h2>
 								<ul className="list-disc">
