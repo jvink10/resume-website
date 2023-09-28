@@ -17,6 +17,7 @@ export default function PhotoSphere(props: Props) {
                     height={`${props.imageHeight}`}
                     container={''}
                     fisheye={true}
+                    navbar={['fullscreen']}
                 ></ReactPhotoSphereViewer>
             </div>
         </div>
