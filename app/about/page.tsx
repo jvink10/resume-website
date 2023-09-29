@@ -45,7 +45,7 @@ export default function About() {
                     <div className="flex flex-col lg:flex-row-reverse justify-evenly items-center">
                         <div className="max-w-[384px] space-y-2">
                             <h2 id="laravel" className="text-lg">Laravel and PHP</h2>
-                            <p className="ml-1">Following learning Next.js, Laravel, and its focus on back end PHP, will be Jordan&apos;s next goal.</p>
+                            <p className="ml-1">Following learning Next.js, Jordan plans on learning Laravel, and its focus on back end PHP.</p>
                             <p className="ml-1">He wants to learn Laravel due to its popularity and it being the first framework he touched in his Wamos Portugal internship.</p>
                         </div>
                         <div>
@@ -82,7 +82,7 @@ export default function About() {
                     <p>Due to having relatives living in Portugal, Jordan has begun the arduous journey of learning a second language. While he is only at a beginner level currently, he hopes to make significant progress in the coming years.</p>
                     <p>In his free time, he enjoys reading a book, able to spend the entire day immersed without realising it if he never checks the time.</p>
                     <p>Jordan enjoys taking photo spheres with his phone and going on long walks, which he combines into some fantastic photo sphere shots of his home city, Brisbane</p>
-                    <p>This photosphere and many others can be seen on another of my websites.</p>
+                    <p>This photosphere and many others can be seen on another of his websites.</p>
                     <Link href="https://room-view-iota.vercel.app" target="_blank" className="underline">https://room-view-iota.vercel.app</Link>
                 </div>
                 <div className="hidden sm:inline-block mx-auto p-2 max-w-max bg-white">
