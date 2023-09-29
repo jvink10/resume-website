@@ -85,8 +85,8 @@ export default function About() {
                     <p>This photosphere and many others can be seen on another of his websites.</p>
                     <Link href="https://room-view-iota.vercel.app" target="_blank" className="underline">https://room-view-iota.vercel.app</Link>
                 </div>
-                <div className="hidden sm:inline-block mx-auto p-2 max-w-max bg-white">
-                    <PhotoSphere image="/photo-spheres/bardon-esplanade-park.jpg" imageWidth={512} imageHeight={384} />
+                <div className="hidden sm:inline-block mx-auto p-2 w-[512px] h-[384px] bg-white">
+                    <PhotoSphere image="/photo-spheres/bardon-esplanade-park.jpg" />
                 </div>
             </section>
         </main>
