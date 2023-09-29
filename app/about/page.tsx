@@ -34,8 +34,8 @@ export default function About() {
                 <div className="px-4 space-y-8 lg:space-y-32">
                     <div className="flex flex-col lg:flex-row justify-evenly items-center">
                         <div className="max-w-[384px] space-y-2">
-                            <h2 id="nextjs" className="text-lg">Next.js</h2>
-                            <p className="ml-1">Presently, Jordan wants to focus on continuing to develop his skills in Next.js to a greater level.</p>
+                            <h2 id="nextjs" className="text-lg">Next.js and React</h2>
+                            <p className="ml-1">Presently, Jordan wants to focus on continuing to develop his skills in Next.js and React to a greater level.</p>
                             <p className="ml-1">Once he feels that he has progressed to a comfortable level of expertise, he intends on expanding his web development abilities beyond Next.js and React.</p>
                         </div>
                         <div>

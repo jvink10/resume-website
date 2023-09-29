@@ -64,7 +64,7 @@ export default function Home() {
 			</section>
 			<section className="my-16">
 				<div className="my-16">
-					<HeadingBox text="Here Are Some Of My Personal Projects" />
+					<HeadingBox text="Here Is A Personal Project Of Mine" />
 				</div>
 				<div>
 					<div className="mx-4 lg:mx-8 space-y-8">
