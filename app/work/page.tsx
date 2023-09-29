@@ -12,7 +12,7 @@ export default function Work() {
                         <h2 className="mb-2 text-xl">Myxos and Musings Book Sale</h2>
                         <div className="mb-4">
                             <SkillTag text="Next.js" description="Full stack javascript framework" />
-                            <SkillTag text="Tailwind CSS" description="CSS library" />
+                            <SkillTag text="Tailwind CSS" description="CSS framework" />
                             <SkillTag text="TypeScript" description="Javascript with types" />
                             <SkillTag text="React" description="Javascript library" />
                         </div>

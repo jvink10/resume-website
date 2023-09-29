@@ -82,14 +82,14 @@ export default function Home() {
 							<div className="mx-auto px-8 max-w-[512px]">
 								<h2 className="my-2 text-lg text-center">Current Features</h2>
 								<ul className="list-disc">
-									<li>Add a background image from your computer.</li>
-									<li>Inlcude photospheres in your camera roll.</li>
-									<li>Determine photosphere position on the map.</li>
+									<li>Add a background image of your choice from your computer.</li>
+									<li>Inlcude custom photospheres from your camera roll.</li>
+									<li>Position photospheres on the map.</li>
 								</ul>
 								<h2 className="my-2 text-lg text-center">Planned Features</h2>
 								<ul className="list-disc">
 									<li>Advanced photosphere grouping, based on date, time of day, or weather.</li>
-									<li>Layered Background for multistory buildings.</li>
+									<li>Layered background for multistory buildings.</li>
 									<li>Accounts and database storage.</li>
 								</ul>
 							</div>
