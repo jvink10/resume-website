@@ -3,7 +3,7 @@ Version 1.6.1
 
 # To Add:
 
-## 
+## Feature
 - Add young photography page link
 - Add future page
 - Add personal projects page
